@@ -1,0 +1,22 @@
+package arraysStrings;
+
+import java.util.Scanner;
+
+public class RotateMatrixN {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+		int nbyn = s.nextInt();
+		int nums[][] = new int[nbyn][nbyn];
+		for(int i=0;i<nbyn;i++)
+		{
+			for(int j=0;j<nbyn;j++)
+			{
+				
+			}
+		}
+		
+	}
+
+}

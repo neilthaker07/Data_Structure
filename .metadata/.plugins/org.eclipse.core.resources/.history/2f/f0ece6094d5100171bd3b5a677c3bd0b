@@ -1,0 +1,14 @@
+package arraysStrings;
+
+import java.util.Scanner;
+
+public class RotateMatrixN {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+		
+		
+	}
+
+}
