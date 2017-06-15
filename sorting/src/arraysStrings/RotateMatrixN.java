@@ -56,5 +56,6 @@ public class RotateMatrixN {
 			}
 			System.out.println();
 		}
+		// O(N square)
 	}
 }
