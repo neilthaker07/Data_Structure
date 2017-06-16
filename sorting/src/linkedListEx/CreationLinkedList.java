@@ -2,9 +2,9 @@ package linkedListEx;
 
 public class CreationLinkedList {
 	
-	private static Node head;
-	private static Node tail;
-	private static int size ;
+	static Node head;
+	static Node tail;
+	static int size ;
 
 	public static void main(String[] args) {
 
