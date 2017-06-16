@@ -1,9 +1,0 @@
-package arraysStrings;
-
-public class RotateMatrixN {
-
-	public static void main(String[] args) {
-
-	}
-
-}

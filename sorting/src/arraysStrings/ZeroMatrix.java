@@ -68,27 +68,26 @@ public class ZeroMatrix {
 				{
 					/*no1.add(i);
 					no2.add(j);*/
-					
 					b1[i]=true;
 					b2[j]=true;
 					break;
 				}
 			}
 		}
-		
-		
+		// TIME COMPLEXITY: O(mn) = O(N) ; where m is rows and n is cols , N=m*n
+		// SPACE COMPLEXITY : O(mn) , using bit vector it can be O(n) , using books algo it can be O(1) - no need to store 0 value element
 		for(int p=0;p<n;p++)
 		{
 			if(b1[p])
 			{
-				nullifyCol(n, nums,p);
+				nullifyCol(m, nums,p);
 			}
 		}
-		for(int p=0;p<n;p++)
+		for(int p=0;p<m;p++)
 		{
 			if(b2[p])
 			{
-				nullifyRow(m, nums,p);
+				nullifyRow(n, nums,p);
 			}
 		}
 		
@@ -103,26 +102,26 @@ public class ZeroMatrix {
 		}
 	}
 
-	private static void nullifyCol(int n, int[][] nums,int p) 
+	private static void nullifyCol(int m, int[][] nums,int p) 
 	{
-		for(int i=0;i<n;i++) // col
+		for(int i=0;i<m;i++) 
 		{
-			/*for(int ff=0;ff<no2.size();ff++)
-			{
-				nums[i][no2.get(ff)]=0;
-			}*/
-			nums[i][p]=0;
+			nums[p][i]=0; // so p is fixed and change value of i for whole column to make every row element 0.
 		}
+		/*for(int ff=0;ff<no2.size();ff++)
+		{
+			nums[i][no2.get(ff)]=0;
+		}*/
 	}
 	
-	private static void nullifyRow(int m, int[][] nums,int p) 
+	private static void nullifyRow(int n, int[][] nums,int p) 
 	{
-		for (int i = 0; i < m; i++) // row
+		for (int i = 0; i < n; i++)
 		{
+			nums[i][p]=0;
+		}
 		/*
 		 * for(int ff=0;ff<no2.size();ff++) { nums[no1.get(ff)][i]=0; }
 		 */
-			nums[p][i]=0;
-		}
 	}
 }
