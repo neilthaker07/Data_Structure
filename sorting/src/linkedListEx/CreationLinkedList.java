@@ -110,11 +110,11 @@ public class CreationLinkedList {
 				head=mid;
 				mid=next;
 			}
-			if(nodeVal==mid.getValue())
+			if(nodeVal==mid.getValue()) // node removal
 			{
 				prev.setNext(next);
-				prev=mid;
-				mid=next;
+				/*prev=mid;
+				mid=next;*/
 			}
 			if(next==tail && nodeVal!=tail.getValue())
 			{
@@ -150,14 +150,13 @@ public class CreationLinkedList {
 		int i=0;
 		if(!flag)
 		{
-			while(i<size )
+			while(i<size)
 			{
 				if(i==pos)
 				{
 					break;
 				}
 				prev=next;
-				// condition
 				next=next.getNext();
 				i++;
 			}
