@@ -2,9 +2,9 @@ package linkedListEx;
 
 public class CreationLinkedList {
 	
-	static Node head;
-	static Node tail;
-	static int size ;
+	Node head;
+	Node tail;
+	int size ;
 
 	public static void main(String[] args) {
 
@@ -25,9 +25,9 @@ public class CreationLinkedList {
 		c.removeHead();
 		c.removeTail();
 		c.removePos(4);*/
-		size = c.size();
+		c.size = c.size();
 		System.out.println(c);
-		System.out.println("size = "+size);
+		System.out.println("size = "+c.size);
 	}
 
 	public void addNode(int q) 

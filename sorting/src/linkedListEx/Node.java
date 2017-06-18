@@ -34,5 +34,4 @@ public class Node implements Comparable {
 		a.append(value+" ");
 		return a.toString();
 	}
-
 }
