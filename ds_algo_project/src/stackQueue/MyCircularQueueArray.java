@@ -2,12 +2,13 @@ package stackQueue;
 
 import java.util.Arrays;
 
-public class MyQueueArray {
+public class MyCircularQueueArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		MyQueueArray mq = new MyQueueArray();
+		// size 5 circular queue - so no expansion in queue size
+		MyCircularQueueArray mq = new MyCircularQueueArray();
 		mq.addNode(6);
 		mq.addNode(3);
 		mq.addNode(1);
@@ -28,45 +29,61 @@ public class MyQueueArray {
 		mq.removeNode();
 		System.out.println(mq);
 	}
-	
+
 	int firstData ;
 	int lastData ;
-	int originalQueueSize=5;
-	int array[] = new int[originalQueueSize];
+	int array[] = new int[5];
 	int lastPointer = 0;
 	int firstPointer = 0;
-
+	
 	public void addNode(int data)
 	{
-		if(lastPointer+1 > array.length)
+		int b = 0;
+		for(int i=0;i<array.length;i++)
 		{
-			int l[] = array;
-			array = new int[(originalQueueSize*3/2)+1];
-			originalQueueSize = (originalQueueSize*3/2)+1;
-			for(int i=0;i<l.length;i++)
+			if(array[i]!=0)
 			{
-				array[i] = l[i];
+				b++;
 			}
 		}
-		
-		array[lastPointer]=data;
-		if(firstData==0)
+		if(b<array.length)
 		{
-			firstData = data;
+			array[lastPointer]=data;
+			if(firstData==0)
+			{
+				firstData=array[lastPointer];
+				firstPointer = lastPointer;
+			}
+			lastData=array[lastPointer];
+			
+			if(lastPointer+1==array.length)
+			{
+				lastPointer=0;
+			}
+			else
+			{
+				lastPointer++;
+			}
 		}
-		lastData=array[lastPointer];
-		lastPointer++;
+		else
+		{
+			System.out.println("FULL");
+		}
 	}
 	public void removeNode()
 	{
-		if(firstPointer==0 || firstPointer!=lastPointer)
+		array[firstPointer]=0;
+		if(firstPointer+1==array.length)
 		{
-			array[firstPointer]=0;
+			firstData=array[0];
+			firstPointer=0;
+		}
+		else
+		{
 			firstData=array[firstPointer+1];
 			firstPointer++;
 		}
 	}
-	
 	public boolean isEmpty()
 	{
 		return firstData==0;
