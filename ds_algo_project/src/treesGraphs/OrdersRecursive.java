@@ -1,10 +1,10 @@
-package trees;
+package treesGraphs;
 
-public class Orders {
+public class OrdersRecursive {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Orders o = new Orders();
+		OrdersRecursive o = new OrdersRecursive();
 		CustomTree cc = o.createTree();
 
 		o.inOrder(cc);
@@ -24,9 +24,9 @@ public class Orders {
 		n3.value=7;
 		n4.value=1;
 		
-		n1.childLeft = n2;
-		n1.childRight = n3;
-		n3.childLeft = n4;
+		n1.leftChild = n2;
+		n1.rightChild = n3;
+		n3.leftChild = n4;
 
 		Node allNodes[] = new Node[]{n1,n2,n3,n4};
 		
@@ -48,15 +48,15 @@ public class Orders {
 	{
 		if(n != null && count < 4)
 		{
-			if(n.childLeft!=null)
+			if(n.leftChild!=null)
 			{
-				inOrderProcessing(n.childLeft);
+				inOrderProcessing(n.leftChild);
 			}
 			System.out.println(n.value);
 			count++;
-			if(n.childRight!=null)
+			if(n.rightChild!=null)
 			{
-				inOrderProcessing(n.childRight);
+				inOrderProcessing(n.rightChild);
 			}
 		}
 	}
@@ -76,13 +76,13 @@ public class Orders {
 		{
 			count++;
 			System.out.println(n.value);
-			if(n.childLeft!=null)
+			if(n.leftChild!=null)
 			{
-				preOrderProcessing(n.childLeft);
+				preOrderProcessing(n.leftChild);
 			}
-			if(n.childRight!=null)
+			if(n.rightChild!=null)
 			{
-				preOrderProcessing(n.childRight);
+				preOrderProcessing(n.rightChild);
 			}
 		}
 	}
@@ -99,13 +99,13 @@ public class Orders {
 	{
 		if(n != null && count < 12)
 		{
-			if(n.childLeft!=null)
+			if(n.leftChild!=null)
 			{
-				postOrderProcessing(n.childLeft);
+				postOrderProcessing(n.leftChild);
 			}
-			if(n.childRight!=null)
+			if(n.rightChild!=null)
 			{
-				postOrderProcessing(n.childRight);
+				postOrderProcessing(n.rightChild);
 			}
 			count++;
 			System.out.println(n.value);
