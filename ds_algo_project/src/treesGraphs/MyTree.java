@@ -14,7 +14,7 @@ public class MyTree {
 		mt.preOrder(mt.root);
 		System.out.println("*-----------------------*");
 
-		mt.deleteNode(mt.n5); // Delete node 
+		mt.deleteNode(mt.n6); // Delete node 
 		mt.preOrder(mt.root);
 	}
 
@@ -276,10 +276,16 @@ public class MyTree {
 			{
 				if(d.getValue() < prevRoot.getValue())
 				{
-					prevRoot.setLeftChild(d.getLeftChild().getRightChild());
+					Node leaf = findLeafNode(d, true);
+					Node leafLeft = leaf.getLeftChild();
+					
+					leafPrevious.setRightChild(leafLeft);
+					d.setValue(leaf.getValue());
+					
+					/*prevRoot.setLeftChild(d.getLeftChild().getRightChild());
 					prevRoot.getLeftChild().setLeftChild(d.getLeftChild());
 					prevRoot.getLeftChild().setRightChild(d.getRightChild());
-					prevRoot.getLeftChild().getLeftChild().setRightChild(null);
+					prevRoot.getLeftChild().getLeftChild().setRightChild(null);*/
 				}
 				else if(d.getValue() > prevRoot.getValue())
 				{
@@ -347,20 +353,6 @@ public class MyTree {
 			}
 		}
 		return finalReturn;
-/*		if(lf.getLeftChild() == null && lf.getRightChild() == null)
-		{	
-			return lf;
-		}
-		if(lf.getLeftChild() == null)
-		{
-			findLeafNode(lf.getRightChild(), false);
-		}
-		if(lf.getRightChild() == null)
-		{
-			findLeafNode(lf.getLeftChild(), false);
-		}
-		findLeafNode(lf.getLeftChild(), false);
-		return lf;*/ 
 	}
 	
 	public String toString()
