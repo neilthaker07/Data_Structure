@@ -7,19 +7,15 @@ public class MyTree {
 		
 		MyTree mt = new MyTree();
 		mt.treeCreation();
-		
-		//System.out.println(mt);
-		//mt.preOrder(mt.root);
-		
-		/*mt.searchNode(mt.n6);
-		*/
+		//mt.searchNode(mt.n6);
 		
 		System.out.println("*-----------------------*");
 		mt.root = mt.n1;
 		mt.preOrder(mt.root);
-		
-		//mt.deleteNode(mt.n5);
-		//mt.preOrder(mt.root);
+		System.out.println("*-----------------------*");
+
+		mt.deleteNode(mt.n5); // Delete node 
+		mt.preOrder(mt.root);
 	}
 
 	public boolean isEmpty()
@@ -108,13 +104,11 @@ public class MyTree {
 		addNode(n25);
 	}
 	Node root = new Node();
-	Node originalRoot1 = new Node();
-	Node originalRoot2 = new Node();
-	//Node[] output = new Node[100];
-	//int count = 0;
 	
 	public void addNode(Node n)
 	{
+		Node originalRoot1 = new Node();
+		Node originalRoot2 = new Node();
 		if(root.getValue() == null)
 		{
 			root = n;
@@ -124,14 +118,10 @@ public class MyTree {
 			if(root.getRightChild()==null && n.getValue() > root.getValue())
 			{
 				root.setRightChild(n);
-				/*output[count]=n;
-				count++;*/
 			}
 			else if(root.getLeftChild()==null && n.getValue() < root.getValue())
 			{
 				root.setLeftChild(n);
-				/*output[count]=n;
-				count++;*/
 			}
 			else
 			{
@@ -149,8 +139,6 @@ public class MyTree {
 					addNode(n);
 					root = originalRoot2;
 				}
-				/*output[count]=n;
-				count++;*/
 			}
 		}
 	}
@@ -299,8 +287,9 @@ public class MyTree {
 					Node leafLeft = leaf.getLeftChild();
 					
 					leafPrevious.setRightChild(leafLeft);
-					prevRoot.setRightChild(leaf);
-					prevRoot.getRightChild().setValue(leaf.getValue());
+					//prevRoot.setRightChild(leaf);
+					d.setValue(leaf.getValue());
+					//prevRoot.getRightChild().setValue(leaf.getValue());
 					
 					/*
 					prevRoot.setRightChild(leaf);
@@ -335,12 +324,15 @@ public class MyTree {
 	}
 	
 	Node leafPrevious = new Node();
+	Node finalReturn = new Node();
 	public Node findLeafNode(Node lf, boolean firstTime)
 	{
 		if(firstTime)
 		{
+			//leafPrevious=lf;
 			leafPrevious = lf.getLeftChild();
 			findLeafNode(lf.getLeftChild().getRightChild(), false);
+			//findLeafNode(lf.getRightChild().getLeftChild(), false);
 		}
 		else
 		{
@@ -351,10 +343,10 @@ public class MyTree {
 			}
 			else
 			{
-				return lf;
+				finalReturn = lf;
 			}
 		}
-		return lf;
+		return finalReturn;
 /*		if(lf.getLeftChild() == null && lf.getRightChild() == null)
 		{	
 			return lf;
