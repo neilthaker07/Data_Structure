@@ -1,7 +1,5 @@
 package treesGraphs;
 
-import java.util.LinkedList;
-
 public class TreeWithoutRecursion {
 
 	public static void main(String[] args) {
@@ -9,6 +7,7 @@ public class TreeWithoutRecursion {
 		
 		TreeWithoutRecursion mt = new TreeWithoutRecursion();
 		mt.treeCreation();
+		mt.preOrder(mt.root);
 		
 		//System.out.println("*-----------------------*");
 		//mt.root = mt.n1;
@@ -40,15 +39,16 @@ public class TreeWithoutRecursion {
 		addNode(n2);
 		addNode(n3);
 		addNode(n4);
-		addNode(n5);
+		/*addNode(n5);
 		addNode(n6);
-		addNode(n7);
+		addNode(n7);*/
 	}
 	
 	public void addNode(DoublyNodes n)
 	{
 		DoublyNodes originalRoot1 = new DoublyNodes();
 		DoublyNodes originalRoot2 = new DoublyNodes();
+		
 		if(root.getValue() == null)
 		{
 			root = n;
@@ -58,61 +58,76 @@ public class TreeWithoutRecursion {
 			if(root.getRight()==null && n.getValue() > root.getValue())
 			{
 				root.setRight(n);
+				n.setLeft(root);
 			}
 			else if(root.getLeft()==null && n.getValue() < root.getValue())
 			{
 				root.setLeft(n);
+				n.setRight(root);
 			}
 			else
 			{
 				if(n.getValue() > root.getValue())
 				{
-					boolean ab = false;
+					originalRoot1 = root;
 					while(root.getRight()!=null)
 					{
-						if(root.getRight().getValue() < n.getValue())
+						if(root.getValue() < n.getValue() &&  root.getRight() == null)
 						{
 							root.setRight(n);
-							ab=true;
+							n.setLeft(root);
+							break;
+						}
+						else if(root.getValue() < n.getValue() && root.getRight().getValue() > n.getValue())
+						{
+							root.setRight(n);
+							n.setLeft(root);
+							break;
 						}
 						root = root.getRight();
 					}
-					if(!ab)
-					{
-						root.setRight(n);
-					}
+					root = originalRoot1;
 				}
 				else if(n.getValue() < root.getValue())
 				{
-					boolean ab = false;
-					while(root.getLeft()!=null)
+					originalRoot2 = root;
+					while(root.getLeft()!=null || root.getRight()!=null)
 					{
-						if(root.getLeft().getValue() > n.getValue())
+						if(root.getLeft().getValue() > n.getValue() &&  root.getLeft().getLeft() == null)
 						{
-							root.setLeft(n);
-							ab=true;
+							root.getLeft().setLeft(n);
+							n.setRight(root.getLeft());
+							break;
 						}
-						root = root.getRight();
+						else if(root.getValue() > n.getValue() && root.getLeft().getValue() < n.getValue())
+						{
+							root.getLeft().setRight(n);
+							n.setRight(root);
+							n.setLeft(root.getLeft());
+							root.setLeft(n);
+							break;
+						}
+						root = root.getLeft();
 					}
-					root.setLeft(n);
+					root = originalRoot2;
 				}
 			}
 		}
 	}
 
-	public void preOrder(Node n)
+	public void preOrder(DoublyNodes n)
 	{
 		if(n!=null)
 		{
 			System.out.println(n.getValue());
 		}
-		if(n.getLeftChild()!=null)
+		if(n.getLeft()!=null)
 		{
-			preOrder(n.getLeftChild());
+			preOrder(n.getLeft());
 		}
-		if(n.getRightChild()!=null)
+		if(n.getRight()!=null)
 		{
-			preOrder(n.getRightChild());
+			preOrder(n.getRight());
 		}
 	}
 	

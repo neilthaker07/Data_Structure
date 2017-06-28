@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="linkedListEx.FindElementLinkedList"/>
-<fullyQualifiedTypeName name="linkedListEx.DeleteMiddleNode"/>
 <fullyQualifiedTypeName name="linkedListEx.PartitionElement"/>
 <fullyQualifiedTypeName name="linkedListEx.PartitionBook"/>
 <fullyQualifiedTypeName name="linkedListEx.ReverseNoSum"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="javax.xml.ws.WebServiceRef"/>
 <fullyQualifiedTypeName name="treesGraphs.DoublyNodes"/>
+<fullyQualifiedTypeName name="treesGraphs.BinaryTreeNoRecursion"/>
+<fullyQualifiedTypeName name="treesGraphs.NodeLocal"/>
 </qualifiedTypeNameHistroy>
