@@ -1,39 +1,40 @@
 package treesGraphs;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class PostOrderNoRecursion {
 
 	NodeLocal root;
 
-	void inorder() {
+	List<Integer> postorder() 
+ {
+		List<Integer> res = new ArrayList<Integer>();
 		if (root == null) {
-			return;
+			return res;
 		}
-
-		// keep the nodes in the path that are waiting to be visited
 		Stack<NodeLocal> stack = new Stack<NodeLocal>();
-		NodeLocal node = root;
-
 		stack.push(root);
-		while(!stack.isEmpty())
-		{
-			NodeLocal nl = node;
-			
-			while(nl.left!=null)
-			{
-				stack.push(nl.left);
-				nl = nl.left;
+
+		while (!stack.isEmpty()) {
+			NodeLocal temp = stack.peek();
+			if (temp.left == null && temp.right == null) {
+				NodeLocal pop = stack.pop();
+				res.add(pop.data);
+			} else {
+				if (temp.right != null) {
+					stack.push(temp.right);
+					temp.right = null;
+				}
+
+				if (temp.left != null) {
+					stack.push(temp.left);
+					temp.left = null;
+				}
 			}
-			System.out.println(nl);
-			NodeLocal pl = stack.pop();
-			System.out.println(pl);
-			if(pl.right!=null)
-			{
-				stack.push(pl.right);
-			}
-			nl = pl.right;
 		}
+		return res;
 	}
 
 	public static void main(String args[]) {
@@ -48,6 +49,6 @@ public class PostOrderNoRecursion {
         tree.root.left.left.right = new NodeLocal(9);
         tree.root.left.right.left = new NodeLocal(6);
         tree.root.left.right.right = new NodeLocal(7);
-		tree.inorder();
+		System.out.println(tree.postorder());
 	}
 }

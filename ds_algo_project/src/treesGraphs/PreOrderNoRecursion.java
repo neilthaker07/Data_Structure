@@ -6,7 +6,7 @@ public class PreOrderNoRecursion {
 
 	NodeLocal root;
 
-	void inorder() {
+	void preorder() {
 		if (root == null) {
 			return;
 		}
@@ -48,6 +48,6 @@ public class PreOrderNoRecursion {
         tree.root.left.left.right = new NodeLocal(9);
         tree.root.left.right.left = new NodeLocal(6);
         tree.root.left.right.right = new NodeLocal(7);
-		tree.inorder();
+		tree.preorder();
 	}
 }
