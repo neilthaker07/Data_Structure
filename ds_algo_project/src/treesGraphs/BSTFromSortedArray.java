@@ -13,6 +13,10 @@ public class BSTFromSortedArray {
 		bs.createMinHeightBST(array);
 	}
 
+	// O(NlogN) : O(logN + NlogN) = O(NlogN) - N is number of nodes.
+	// logN for creating array to create Tree.
+	// While creating Tree at each addition of Node traversing each node : NlogN
+	
 	NodeLocal root ;
 	int[] tempArray;
 	public void createMinHeightBST(int[] nodeArray)
