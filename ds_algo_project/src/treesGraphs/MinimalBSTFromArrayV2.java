@@ -17,7 +17,7 @@ public class MinimalBSTFromArrayV2 {
 	
 	public Node createTree(int[] a, int s, int e) 
 	{
-		if(e<s)
+		if(e < s)
 		{
 			return null;
 		}
@@ -25,7 +25,7 @@ public class MinimalBSTFromArrayV2 {
 		Node n = new Node();
 		n.setValue(a[mid]);
 		
-		n.leftChild = createTree(a,s,mid-1);
+		n.leftChild = createTree(a, s, mid-1);
 		n.rightChild = createTree(a, mid+1, e);
 		
 		return n;

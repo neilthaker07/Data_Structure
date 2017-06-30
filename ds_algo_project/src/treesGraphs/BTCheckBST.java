@@ -1,9 +1,12 @@
 package treesGraphs;
 
+import java.util.ArrayList;
+
 public class BTCheckBST {
 
 	NodeLocal root;
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
 		BTCheckBST tree = new BTCheckBST();
 		tree.root = new NodeLocal(5);
@@ -20,16 +23,43 @@ public class BTCheckBST {
         tree.root.left.right.right = new NodeLocal(7);
         tree.root.left.right.right.left = new NodeLocal(17);*/
 
-        System.out.println(tree.isBST(tree.root));
+        //System.out.println(tree.isBST(tree.root));
+		
+		System.out.println(tree.isBSTCheck(tree.root));
+		System.out.println(tree.a);
+		
+		for(int i=0;i<tree.a.size();i++)
+		{
+			if(i<tree.a.size()-1 && tree.a.get(i)>tree.a.get(i+1))
+			{
+				System.out.println("NO");
+				break;
+			}
+		}
 	}
 
-	
+	ArrayList<Integer> a = new ArrayList<Integer>();
 	NodeLocal mainRoot = root;
+	public boolean isBSTCheck(NodeLocal root)
+	{
+		if(root.left!=null)
+		{
+			isBSTCheck(root.left);
+		}
+		a.add(root.data);
+		if(root.right!=null)
+		{
+			isBSTCheck(root.right);
+		}
+		return false;
+	}
+	
+	/*
 	public boolean isBST(NodeLocal root)
 	{
 		if(!isLeafNode(root) && 
 				(root.left == null || root.left.data <= root.data ) && 
-				(root.right == null || root.data <= root.right.data))
+				(root.right == null || root.data < root.right.data))
 		{
 			boolean l = false;
 			boolean r = false;
@@ -60,7 +90,7 @@ public class BTCheckBST {
 		{
 			return false;
 		}
-	}
+	}*/
 	
 	public boolean isLeafNode(NodeLocal node)
 	{
