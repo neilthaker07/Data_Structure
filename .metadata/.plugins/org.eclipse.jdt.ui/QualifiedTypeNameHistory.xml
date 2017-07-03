@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="linkedListEx.CircularLinkedList"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="linkedListEx.CreationLinkedList"/>
-<fullyQualifiedTypeName name="lambda.LambdaFilter"/>
-<fullyQualifiedTypeName name="lambda.Continent"/>
-<fullyQualifiedTypeName name="lambda.Country"/>
-<fullyQualifiedTypeName name="java.util.stream.Stream"/>
-<fullyQualifiedTypeName name="lambda.LambdaRandom"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-<fullyQualifiedTypeName name="stackQueue.MyStack.StackNode"/>
-<fullyQualifiedTypeName name="stackQueue.MyStack"/>
-<fullyQualifiedTypeName name="stackQueue.MyQueue.QueueNode"/>
-<fullyQualifiedTypeName name="stackQueue.MyQueueArray.Node"/>
 <fullyQualifiedTypeName name="stackQueue.MyStackArray.Node"/>
 <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
 <fullyQualifiedTypeName name="stackQueue.CircularQueue.Node"/>
@@ -48,16 +33,31 @@
 <fullyQualifiedTypeName name="treesGraphs.DoublyNodes"/>
 <fullyQualifiedTypeName name="treesGraphs.BinaryTreeNoRecursion"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="treesGraphs.LevelOrderTreerecursion"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="treesGraphsBook.MinHeightBSTFromArray"/>
 <fullyQualifiedTypeName name="treesGraphs.BSTFromSortedArray"/>
 <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="treesGraphs.NodeLocal"/>
 <fullyQualifiedTypeName name="treesGraphs.MyTree"/>
 <fullyQualifiedTypeName name="treesGraphs.MinimalBSTFromArrayV2"/>
 <fullyQualifiedTypeName name="treesGraphs.Node"/>
+<fullyQualifiedTypeName name="treesGraphs.ListTreeDepths"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="treesGraphs.CheckBalancedTree"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.keyinfo.RetrievalMethod"/>
+<fullyQualifiedTypeName name="treesGraphs.BTCheckBST"/>
+<fullyQualifiedTypeName name="treesGraphs.BTCheckBSTBest"/>
+<fullyQualifiedTypeName name="treesGraphs.SuccessorBST"/>
+<fullyQualifiedTypeName name="treesGraphs.FirstCommonAncestor"/>
+<fullyQualifiedTypeName name="treesGraphs.T2SubtreeT1"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="treesGraphs.RandomNodeSelection"/>
+<fullyQualifiedTypeName name="treesGraphs.NodeLocal"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="treesGraphs.RandomSelectionTree.TreeNodes"/>
+<fullyQualifiedTypeName name="treesGraphs.TreeNodes"/>
 </qualifiedTypeNameHistroy>

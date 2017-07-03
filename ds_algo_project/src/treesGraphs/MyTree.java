@@ -281,11 +281,6 @@ public class MyTree {
 					
 					leafPrevious.setRightChild(leafLeft);
 					d.setValue(leaf.getValue());
-					
-					/*prevRoot.setLeftChild(d.getLeftChild().getRightChild());
-					prevRoot.getLeftChild().setLeftChild(d.getLeftChild());
-					prevRoot.getLeftChild().setRightChild(d.getRightChild());
-					prevRoot.getLeftChild().getLeftChild().setRightChild(null);*/
 				}
 				else if(d.getValue() > prevRoot.getValue())
 				{
@@ -293,24 +288,9 @@ public class MyTree {
 					Node leafLeft = leaf.getLeftChild();
 					
 					leafPrevious.setRightChild(leafLeft);
-					//prevRoot.setRightChild(leaf);
 					d.setValue(leaf.getValue());
-					//prevRoot.getRightChild().setValue(leaf.getValue());
-					
-					/*
-					prevRoot.setRightChild(leaf);
-					leaf.setLeftChild(d.getLeftChild());
-					prevRoot.getRightChild().setLeftChild(d.getLeftChild());
-					prevRoot.getRightChild().setRightChild(d.getRightChild());
-					prevRoot.getRightChild().getLeftChild().setRightChild(null);
-					*/
-					/*prevRoot.setRightChild(d.getLeftChild().getRightChild());
-					prevRoot.getRightChild().setLeftChild(d.getLeftChild());
-					prevRoot.getRightChild().setRightChild(d.getRightChild());
-					prevRoot.getRightChild().getLeftChild().setRightChild(null);*/
 				}
 			}
-			//d.setValue(null);
 			root = originalRootD;
 			prevRoot = root;
 		}

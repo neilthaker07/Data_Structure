@@ -64,11 +64,38 @@ public class InOrderNoRecursion {
  */
 class NodeLocal {
 
-	int data;
-	NodeLocal left, right;
+	Integer data;
+	NodeLocal left, right, parent;
+	Integer size;
+
+	public NodeLocal getLeft() {
+		return left;
+	}
+
+	public void setLeft(NodeLocal left) {
+		this.left = left;
+	}
+
+	public NodeLocal getRight() {
+		return right;
+	}
+
+	public void setRight(NodeLocal right) {
+		this.right = right;
+	}
+
+	public NodeLocal getParent() {
+		return parent;
+	}
+
+	public void setParent(NodeLocal parent) {
+		this.parent = parent;
+	}
 
 	public NodeLocal(int item) {
 		data = item;
-		left = right = null;
+		left = right = parent = null;
+		size=1;
 	}
+	
 }
