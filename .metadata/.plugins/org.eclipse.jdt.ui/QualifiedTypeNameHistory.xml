@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="stackQueue.MyStackArray.Node"/>
-<fullyQualifiedTypeName name="java.util.EmptyStackException"/>
-<fullyQualifiedTypeName name="stackQueue.CircularQueue.Node"/>
-<fullyQualifiedTypeName name="java.util.Hashtable"/>
-<fullyQualifiedTypeName name="arraysStrings.MyArrayList"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="stackQueue.MyQueueArray"/>
-<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
-<fullyQualifiedTypeName name="stackQueue.StackOfPlates"/>
-<fullyQualifiedTypeName name="stackQueue.MyQueueUse2Stacks"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="stackQueue.SortStackAscendingOrder"/>
 <fullyQualifiedTypeName name="stackQueue.SortStackAscending_V2"/>
@@ -22,7 +12,6 @@
 <fullyQualifiedTypeName name="trees.CustomTree"/>
 <fullyQualifiedTypeName name="treesGraphs.DepthFirstSearch"/>
 <fullyQualifiedTypeName name="treesGraphs.GraphCreation"/>
-<fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="treesGraphs.BreadthFristSearch"/>
 <fullyQualifiedTypeName name="treesGraphs.BFSWithQueue"/>
 <fullyQualifiedTypeName name="stackQueue.MyQueue"/>
@@ -52,12 +41,23 @@
 <fullyQualifiedTypeName name="treesGraphs.SuccessorBST"/>
 <fullyQualifiedTypeName name="treesGraphs.FirstCommonAncestor"/>
 <fullyQualifiedTypeName name="treesGraphs.T2SubtreeT1"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="treesGraphs.RandomNodeSelection"/>
 <fullyQualifiedTypeName name="treesGraphs.NodeLocal"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="treesGraphs.RandomSelectionTree.TreeNodes"/>
 <fullyQualifiedTypeName name="treesGraphs.TreeNodes"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="recursionDp.RecursiveSequence"/>
+<fullyQualifiedTypeName name="basicJava.LearnHashSet"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
