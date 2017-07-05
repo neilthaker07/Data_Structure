@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="stackQueue.SortStackAscendingOrder"/>
 <fullyQualifiedTypeName name="stackQueue.SortStackAscending_V2"/>
 <fullyQualifiedTypeName name="stackQueue.Dog"/>
@@ -26,7 +25,6 @@
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="treesGraphsBook.MinHeightBSTFromArray"/>
 <fullyQualifiedTypeName name="treesGraphs.BSTFromSortedArray"/>
-<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
 <fullyQualifiedTypeName name="treesGraphs.MyTree"/>
 <fullyQualifiedTypeName name="treesGraphs.MinimalBSTFromArrayV2"/>
 <fullyQualifiedTypeName name="treesGraphs.Node"/>
@@ -55,9 +53,11 @@
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="recursionDp.RecursiveSequence"/>
 <fullyQualifiedTypeName name="basicJava.LearnHashSet"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
