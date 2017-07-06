@@ -2,14 +2,14 @@ package sortingSearching;
 
 import java.util.Arrays;
 
-public class TempCompare {
+public class MergeSortedArraysAndSortIt {
 	
 	public static void main(String[] args) {
 		
 		int a1[] = new int[]{5,12,19};
 		int a2[] = new int[]{2,9};
 		
-		TempCompare t = new TempCompare();
+		MergeSortedArraysAndSortIt t = new MergeSortedArraysAndSortIt();
 		t.mergeSortedArrays(a1, a2);
 	}
 	

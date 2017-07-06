@@ -1,7 +1,7 @@
 package sortingSearching;
 
 import java.util.Arrays;
-
+// At end of each element biggest element goes to the end.
 public class BubbleSort {
 
 	public static void main(String[] args) {

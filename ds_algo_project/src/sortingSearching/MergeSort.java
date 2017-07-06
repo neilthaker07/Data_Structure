@@ -43,7 +43,7 @@ public class MergeSort {
 	
 	public int[] compareArrayAndSort(int a1[], int a2[])
 	{
-		TempCompare tc = new TempCompare();
+		MergeSortedArraysAndSortIt tc = new MergeSortedArraysAndSortIt();
 		return tc.mergeSortedArrays(a1, a2);
 	}	
 }
