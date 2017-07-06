@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="stackQueue.SortStackAscendingOrder"/>
-<fullyQualifiedTypeName name="stackQueue.SortStackAscending_V2"/>
-<fullyQualifiedTypeName name="stackQueue.Dog"/>
-<fullyQualifiedTypeName name="stackQueue.Cat"/>
-<fullyQualifiedTypeName name="stackQueue.AnimalShelter"/>
-<fullyQualifiedTypeName name="stackQueue.Animal"/>
 <fullyQualifiedTypeName name="stackQueue.AnimalShelter2Queues"/>
 <fullyQualifiedTypeName name="trees.Orders"/>
 <fullyQualifiedTypeName name="trees.CustomTree"/>
@@ -58,6 +52,12 @@
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="sortingSearching.MergeSort"/>
+<fullyQualifiedTypeName name="sortingSearching.TempCompare"/>
 <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+<fullyQualifiedTypeName name="java.security.AllPermission"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="sortingSearching.RadixSort"/>
+<fullyQualifiedTypeName name="sortingSearching.SelectionSort"/>
+<fullyQualifiedTypeName name="sortingSearching.BubbleSort"/>
 </qualifiedTypeNameHistroy>

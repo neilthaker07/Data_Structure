@@ -7,7 +7,14 @@ public class SelectionSort {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		SelectionSort p = new SelectionSort();
+		
 		int array[] = new int[]{5,4,9,1,6,10,2,8,7,3}; // O(n square) - time , O(1)-space
+		p.processSortingSelection(array);
+	}
+
+	public int[] processSortingSelection(int array[]) {
+		
 		for(int i=0;i<array.length;i++)
 		{
 			int temp=0;
@@ -38,5 +45,6 @@ public class SelectionSort {
 			}
 		}
 		System.out.println(Arrays.toString(array));
+		return array;
 	}
 }

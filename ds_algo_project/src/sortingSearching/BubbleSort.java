@@ -6,8 +6,12 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int array[] = new int[]{5,4,9,1,6,10,2,8,7,3}; // O(n square) - time , O(1)-space
+		BubbleSort b = new BubbleSort();
+		int array[] = new int[]{3, 0, 5, 0, 5, 5, 8};//{5,4,9,1,6,10,2,8,7,3}; // O(n square) - time , O(1)-space
+		b.processBubble(array);
+	}
+
+	public void processBubble(int[] array) {
 		for(int i=0;i<array.length;i++)
 		{
 			for(int j=0;j<array.length;j++)
