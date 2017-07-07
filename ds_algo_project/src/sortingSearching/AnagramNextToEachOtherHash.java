@@ -1,27 +1,27 @@
 package sortingSearching;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 
-public class AnagramNextToEachOther {
+public class AnagramNextToEachOtherHash {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		String[] s1 = new String[]{"keymon","zebra","happy","paphy","arbez","monkey"};
-		String s2[] = new String[s1.length];
+		HashMap<String, ArrayList<String>> map = new HashMap<String, ArrayList<String>>();
 		
-		int counter=0;
 		for(int i=0;i<s1.length;i++)
 		{
-			if(s1[i]!=null)
+			if(s1[i] != null)
 			{
 				char c1[] = s1[i].toCharArray();
 				Arrays.sort(c1);
 				String t1 = new String(c1);
 				
-				s2[counter] = s1[i];
-				counter++;
-	
+				ArrayList<String> temp = new ArrayList<String>();
+				temp.add(s1[i]);
 				for(int j=i+1;j<s1.length;j++)
 				{
 					if(s1[j]!=null)
@@ -31,15 +31,14 @@ public class AnagramNextToEachOther {
 						String t2 = new String(c2);
 						if(t1.equals(t2))
 						{
-							s2[counter] = s1[j];
-							counter++;
+							temp.add(s1[j]);
 							s1[j] = null;
 						}
 					}
 				}
+				map.put(t1, temp);
 			}
 		}
-		
-		System.out.println(Arrays.toString(s2));
+		System.out.println(map.values().toString());
 	}
 }
