@@ -2,85 +2,109 @@ package sortingSearching;
 
 public class RankOfNumberBST {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
-		
 		RankOfNumberBST a = new RankOfNumberBST();
-
 		a.add(5);
-		a.add(3);
-		a.add(1);
 		a.add(2);
+		a.add(9);
+		a.add(1);
+		a.add(3);
+		a.add(3);
+		a.add(7);
 		
-		a.root.inOrder(a.root);
+		a.inOrder(a.root);
+		
+		//a.rankOfNo(1);
 	}
 	
+	BSTNodesT root=null ;
+
 	public void add(int n)
 	{
-		RankBST rb = new RankBST();
-		rb.no = n;
-		bstAddNode(n, rb);
-	}
-
-	public void bstAddNode(int n, RankBST rb) 
-	{
-		if(root == null)
+		if(root==null)
 		{
-			root = rb;
+			root = new BSTNodesT();
+			root.no = n;
 		}
 		else
 		{
-			if(n == root.no)
+			BSTNodesT currentNode = new BSTNodesT();
+			currentNode.no = n;
+			bstAddNode(currentNode, root);
+		}
+	}
+
+	public void bstAddNode(BSTNodesT currentNode, BSTNodesT baseNode) 
+	{
+		if(currentNode.no==baseNode.no)
+		{
+			baseNode.counts++;
+		}
+		else if(currentNode.no < baseNode.no && baseNode.left == null)
+		{
+			baseNode.left = currentNode;
+		}
+		else if(currentNode.no > baseNode.no && baseNode.right == null)
+		{
+			baseNode.right = currentNode;
+		}
+		else if(currentNode.no < baseNode.no)
+		{
+			bstAddNode(currentNode, baseNode.left);
+		}
+		else if(currentNode.no > baseNode.no)
+		{
+			bstAddNode(currentNode, baseNode.right);
+		}
+	}
+	
+	private void inOrder(BSTNodesT node) 
+	{
+		if(node != null)
+		{
+			if(node.left!=null)
 			{
-				root.counts++;
+				inOrder(node.left);
 			}
-			else if(n < root.no)
+			System.out.println(node.no);
+			if(node.right!=null)
 			{
-				root = root.left;
-				bstAddNode(n, root);
-			}
-			else if(n > root.no)
-			{
-				root = root.right;
-				bstAddNode(n, root);
+				inOrder(node.right);
 			}
 		}
 	}
 	
-	RankBST root ;
-	class RankBST
+	private void customInOrder(BSTNodesT node) 
 	{
-		int no = 0;
-		RankBST left = null;
-		RankBST right = null;
-		int counts = 1;
-		
-		public RankBST() {
-			// TODO Auto-generated constructor stub
-		}
-		
-/*		public String toString()
+		if(node != null)
 		{
-			StringBuilder sb = new StringBuilder();
-			return sb.toString();
-		}*/
-
-		int countt = 0;
-		private void inOrder(RankBST rb) 
-		{
-			if(rb != null && countt < 4)
+			if(node.left!=null)
 			{
-				if(rb.left!=null)
-				{
-					inOrder(rb.left);
-				}
-				System.out.println(rb.no);
-				countt++;
-				if(rb.right!=null)
-				{
-					inOrder(rb.right);
-				}
+				inOrder(node.left);
+			}
+			System.out.println(node.no);
+			if(node.right!=null)
+			{
+				inOrder(node.right);
 			}
 		}
+	}
+	
+	public int rankOfNo(int n)
+	{
+		customInOrder(root);
+		
+		
+		return 0;
+	}
+	
+	class BSTNodesT
+	{
+		int no = 0;
+		BSTNodesT left = null;
+		BSTNodesT right = null;
+		int counts = 1;
 	}
 }
