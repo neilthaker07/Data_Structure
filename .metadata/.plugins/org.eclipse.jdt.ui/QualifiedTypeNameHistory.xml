@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="treesGraphs.GraphCreation"/>
-<fullyQualifiedTypeName name="treesGraphs.BreadthFristSearch"/>
-<fullyQualifiedTypeName name="treesGraphs.BFSWithQueue"/>
-<fullyQualifiedTypeName name="stackQueue.MyQueue"/>
-<fullyQualifiedTypeName name="treesGraphs.NodeGraph"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="treesGraphs.TreeWithoutRecursion"/>
 <fullyQualifiedTypeName name="javax.xml.ws.WebServiceRef"/>
 <fullyQualifiedTypeName name="treesGraphs.DoublyNodes"/>
@@ -21,7 +15,6 @@
 <fullyQualifiedTypeName name="treesGraphs.ListTreeDepths"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="treesGraphs.CheckBalancedTree"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="javax.xml.crypto.dsig.keyinfo.RetrievalMethod"/>
 <fullyQualifiedTypeName name="treesGraphs.BTCheckBST"/>
@@ -39,7 +32,6 @@
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Hashtable"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="recursionDp.RecursiveSequence"/>
 <fullyQualifiedTypeName name="basicJava.LearnHashSet"/>
@@ -57,7 +49,15 @@
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="sortingSearching.SearchWithoutUsingLength"/>
 <fullyQualifiedTypeName name="sortingSearching.StringSearchBlank"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="sortingSearching.MatrixSearch"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="sortingSearching.MatrixSearchNaive"/>
+<fullyQualifiedTypeName name="sortingSearching.PeakValleyArray"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST.RankBST"/>
 </qualifiedTypeNameHistroy>

@@ -9,9 +9,10 @@ public class PeakValleyArray {
 		PeakValleyArray a = new PeakValleyArray();
 		System.out.println(Arrays.toString(a.sort(0)));
 	}
-	
-	int array[] = new int[]{};
-	public int[] sort(int start)
+	// O(n) - optimal solution
+	// O(nlogn) - not optimal - first sort then set
+	int array[] = new int[]{45,40,50,30};
+	public int[] sort(int start) 
 	{
 		for(int i=start;i<array.length;i++)
 		{
