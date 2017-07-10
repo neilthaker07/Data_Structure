@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="treesGraphs.ListTreeDepths"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="treesGraphs.CheckBalancedTree"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="javax.xml.crypto.dsig.keyinfo.RetrievalMethod"/>
 <fullyQualifiedTypeName name="treesGraphs.BTCheckBST"/>
 <fullyQualifiedTypeName name="treesGraphs.BTCheckBSTBest"/>
 <fullyQualifiedTypeName name="treesGraphs.SuccessorBST"/>
 <fullyQualifiedTypeName name="treesGraphs.FirstCommonAncestor"/>
 <fullyQualifiedTypeName name="treesGraphs.T2SubtreeT1"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="treesGraphs.RandomNodeSelection"/>
 <fullyQualifiedTypeName name="treesGraphs.NodeLocal"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
@@ -44,7 +38,6 @@
 <fullyQualifiedTypeName name="sortingSearching.MatrixSearchNaive"/>
 <fullyQualifiedTypeName name="sortingSearching.PeakValleyArray"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST.RankBST"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST.BSTNodesT"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST"/>
@@ -54,10 +47,17 @@
 <fullyQualifiedTypeName name="designPattern.Packing"/>
 <fullyQualifiedTypeName name="designPattern.Item"/>
 <fullyQualifiedTypeName name="designPattern.Bottle"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="designPattern.VegBurger"/>
 <fullyQualifiedTypeName name="designPattern.Coke"/>
 <fullyQualifiedTypeName name="designPattern.Meal"/>
 <fullyQualifiedTypeName name="designPattern.MealBuilder"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="sortingSearching.ComparatorUse"/>
+<fullyQualifiedTypeName name="sortingSearching.Player"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="sortingSearching.MaxHeapify"/>
+<fullyQualifiedTypeName name="sortingSearching.HeapTree"/>
 </qualifiedTypeNameHistroy>
