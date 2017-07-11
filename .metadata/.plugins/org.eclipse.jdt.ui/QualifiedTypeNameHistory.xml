@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="treesGraphs.BTCheckBST"/>
-<fullyQualifiedTypeName name="treesGraphs.BTCheckBSTBest"/>
-<fullyQualifiedTypeName name="treesGraphs.SuccessorBST"/>
-<fullyQualifiedTypeName name="treesGraphs.FirstCommonAncestor"/>
-<fullyQualifiedTypeName name="treesGraphs.T2SubtreeT1"/>
-<fullyQualifiedTypeName name="treesGraphs.RandomNodeSelection"/>
 <fullyQualifiedTypeName name="treesGraphs.NodeLocal"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="treesGraphs.RandomSelectionTree.TreeNodes"/>
@@ -29,7 +23,6 @@
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="sortingSearching.SearchWithoutUsingLength"/>
 <fullyQualifiedTypeName name="sortingSearching.StringSearchBlank"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="sortingSearching.MaxHeapify"/>
 <fullyQualifiedTypeName name="sortingSearching.HeapTree"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="sortingSearching.BSTRecursive"/>
+<fullyQualifiedTypeName name="linkedListEx.CreationLinkedList"/>
+<fullyQualifiedTypeName name="linkedListEx.Node"/>
+<fullyQualifiedTypeName name="linkedListEx.LinkedListCycleCheck"/>
+<fullyQualifiedTypeName name="linkedListEx.IntersectionLinkedListFinal"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
