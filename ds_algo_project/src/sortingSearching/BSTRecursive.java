@@ -6,7 +6,7 @@ public class BSTRecursive {
 		// TODO Auto-generated method stub
 
 		BSTRecursive b = new BSTRecursive();
-		b.bstSearch(b.array,1,0,b.array.length-1);
+		System.out.println(b.bstSearch(b.array,1,0,b.array.length-1));
 	}
 	
 	int array[] = new int[]{1,3,6,7,8,9,10};

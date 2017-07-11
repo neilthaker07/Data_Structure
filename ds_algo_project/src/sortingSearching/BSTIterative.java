@@ -5,10 +5,10 @@ public class BSTIterative {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BSTRecursive b = new BSTRecursive();
-		b.bstSearch(b.array,1,0,b.array.length-1);
+		System.out.println(b.bstSearch(b.array,1,0,b.array.length-1));
 	}
 	
-	int array[] = new int[]{10,5,8,2,1,3,9,7};
+	int array[] = new int[]{1,3,6,7,8,9,10};
 	
 	public boolean bstSearch(int array[], int x)
 	{
