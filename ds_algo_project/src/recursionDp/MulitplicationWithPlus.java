@@ -5,7 +5,7 @@ public class MulitplicationWithPlus {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MulitplicationWithPlus mp = new MulitplicationWithPlus();
-		System.out.println(mp.mul(9,11));
+		System.out.println(mp.mul(2,2));
 	}
 
 	public int mul(int a, int b)
@@ -46,7 +46,7 @@ public class MulitplicationWithPlus {
 			{
 				g2 = g2+a;
 			}
-			System.out.println("g2 : "+g2);
+			System.out.println("recursion multiplication : "+g2);
 		}
 		return ans;
 	}
