@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="treesGraphs.NodeLocal"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="treesGraphs.RandomSelectionTree.TreeNodes"/>
-<fullyQualifiedTypeName name="treesGraphs.TreeNodes"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="java.util.TreeMap"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.Hashtable"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="recursionDp.RecursiveSequence"/>
 <fullyQualifiedTypeName name="basicJava.LearnHashSet"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="sortingSearching.MergeSort"/>
 <fullyQualifiedTypeName name="sortingSearching.TempCompare"/>
-<fullyQualifiedTypeName name="java.security.AllPermission"/>
 <fullyQualifiedTypeName name="sortingSearching.RadixSort"/>
 <fullyQualifiedTypeName name="sortingSearching.SelectionSort"/>
 <fullyQualifiedTypeName name="sortingSearching.BubbleSort"/>
 <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-<fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="sortingSearching.SearchWithoutUsingLength"/>
 <fullyQualifiedTypeName name="sortingSearching.StringSearchBlank"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="sortingSearching.MatrixSearch"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="sortingSearching.MatrixSearchNaive"/>
 <fullyQualifiedTypeName name="sortingSearching.PeakValleyArray"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -49,7 +36,6 @@
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="sortingSearching.ComparatorUse"/>
 <fullyQualifiedTypeName name="sortingSearching.Player"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="sortingSearching.MaxHeapify"/>
 <fullyQualifiedTypeName name="sortingSearching.HeapTree"/>
@@ -60,4 +46,18 @@
 <fullyQualifiedTypeName name="linkedListEx.LinkedListCycleCheck"/>
 <fullyQualifiedTypeName name="linkedListEx.IntersectionLinkedListFinal"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="recursionDp.MagicIndex"/>
+<fullyQualifiedTypeName name="recursionDp.Subsets"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.security.AllPermission"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="recursionDp.MulitplicationWithPlus"/>
+<fullyQualifiedTypeName name="recursionDp.TowersOfHanoi"/>
+<fullyQualifiedTypeName name="recursionDp.Tower"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="recursionDp.PaintFill"/>
+<fullyQualifiedTypeName name="recursionDp.PaintFill.Color"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>
