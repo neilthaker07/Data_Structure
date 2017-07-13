@@ -9,7 +9,7 @@ public class PermuWithNoDups {
 		PermuWithNoDups p = new PermuWithNoDups();
 		System.out.println(Arrays.toString(p.recursion(p.a)));
 	}
-	String a="abcd";
+	String a="abc";
 	public String[] recursion(String r)
 	{
 		if(r.length()==1)
@@ -42,7 +42,6 @@ public class PermuWithNoDups {
 					}
 				}
 			}
-			System.out.println(k);
 			return op;
 		}
 	}
