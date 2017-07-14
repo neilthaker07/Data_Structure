@@ -14,11 +14,11 @@ public class Ch2No1 {
 	{
 		if(n==1)
 		{
-			System.out.println("move disk 1 from to to: "+from + " "+to);
+			System.out.println("move disk 1 from to: "+from + " "+to);
 			return;
 		}
 		process(n-1, from, buffer, to);
-		System.out.println("move disk n from to to: " + n+" "+from + " "+to);
+		System.out.println("move disk n from to: " + n+" "+from + " "+to);
 		process(n-1, buffer, to,from);
 		
 	}

@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="basicJava.LearnHashSet"/>
-<fullyQualifiedTypeName name="java.util.logging.Logger"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="sortingSearching.MergeSort"/>
-<fullyQualifiedTypeName name="sortingSearching.TempCompare"/>
-<fullyQualifiedTypeName name="sortingSearching.RadixSort"/>
-<fullyQualifiedTypeName name="sortingSearching.SelectionSort"/>
-<fullyQualifiedTypeName name="sortingSearching.BubbleSort"/>
-<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-<fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="sortingSearching.SearchWithoutUsingLength"/>
 <fullyQualifiedTypeName name="sortingSearching.StringSearchBlank"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="sortingSearching.MatrixSearch"/>
 <fullyQualifiedTypeName name="sortingSearching.MatrixSearchNaive"/>
 <fullyQualifiedTypeName name="sortingSearching.PeakValleyArray"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST.RankBST"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST.BSTNodesT"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST"/>
@@ -49,15 +37,27 @@
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="recursionDp.MagicIndex"/>
 <fullyQualifiedTypeName name="recursionDp.Subsets"/>
-<fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.security.AllPermission"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="recursionDp.MulitplicationWithPlus"/>
 <fullyQualifiedTypeName name="recursionDp.TowersOfHanoi"/>
 <fullyQualifiedTypeName name="recursionDp.Tower"/>
-<fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="recursionDp.PaintFill"/>
 <fullyQualifiedTypeName name="recursionDp.PaintFill.Color"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="recursionDp.PermuWithNoDups"/>
+<fullyQualifiedTypeName name="recursionDp.RemoveAdjacentDups"/>
+<fullyQualifiedTypeName name="recursionDp.RemoveDuplicatesFromArray"/>
+<fullyQualifiedTypeName name="recursionDp.Parens"/>
+<fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="narsimKar.Ch2No1"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="narsimKar.LinkedListInsertion"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="progs.Person11"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
