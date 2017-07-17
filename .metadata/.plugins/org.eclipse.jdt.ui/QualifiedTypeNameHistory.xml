@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="sortingSearching.MatrixSearch"/>
-<fullyQualifiedTypeName name="sortingSearching.MatrixSearchNaive"/>
-<fullyQualifiedTypeName name="sortingSearching.PeakValleyArray"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST.RankBST"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST.BSTNodesT"/>
 <fullyQualifiedTypeName name="sortingSearching.RankOfNumberBST"/>
@@ -19,7 +15,6 @@
 <fullyQualifiedTypeName name="designPattern.Meal"/>
 <fullyQualifiedTypeName name="designPattern.MealBuilder"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="sortingSearching.ComparatorUse"/>
 <fullyQualifiedTypeName name="sortingSearching.Player"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
@@ -31,7 +26,6 @@
 <fullyQualifiedTypeName name="linkedListEx.Node"/>
 <fullyQualifiedTypeName name="linkedListEx.LinkedListCycleCheck"/>
 <fullyQualifiedTypeName name="linkedListEx.IntersectionLinkedListFinal"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="recursionDp.MagicIndex"/>
 <fullyQualifiedTypeName name="recursionDp.Subsets"/>
@@ -42,7 +36,6 @@
 <fullyQualifiedTypeName name="recursionDp.PaintFill"/>
 <fullyQualifiedTypeName name="recursionDp.PaintFill.Color"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="recursionDp.PermuWithNoDups"/>
 <fullyQualifiedTypeName name="recursionDp.RemoveAdjacentDups"/>
 <fullyQualifiedTypeName name="recursionDp.RemoveDuplicatesFromArray"/>
@@ -50,7 +43,6 @@
 <fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="narsimKar.Ch2No1"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="narsimKar.LinkedListInsertion"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
@@ -58,6 +50,14 @@
 <fullyQualifiedTypeName name="progs.IsBST"/>
 <fullyQualifiedTypeName name="progs.StackOperations"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="progs.Difference"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="progs.Arrays2d"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="progs.LevelOrder"/>
 </qualifiedTypeNameHistroy>
