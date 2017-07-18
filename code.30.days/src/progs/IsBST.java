@@ -42,30 +42,57 @@ public class IsBST {
 		{
 			return false;
 		}
-		
-		return process(root);
+		return process(root, Long.MIN_VALUE, Long.MAX_VALUE);
 	}
 	
-	public static boolean process(Node12 node)
+	public static boolean process(Node12 node, long min, long max)
 	{
-		if( (node.left!=null && node.left.data > node.data) || (node.right!=null && node.right.data <= node.data) )
+		if(node==null)
+		{
+			return true;
+		}
+		if(/*node.left.data > node.data || node.right.data<node.data ||*/node.data<min || node.data>max)
 		{
 			return false;
 		}
-		
-		if(node.left!=null && !isLeaf(node.left))
+		else
 		{
-			process(node.left);
+			return process(node.left,min,node.data) && process(node.right,node.data,max); 
 		}
-		if(node.right!=null && !isLeaf(node.right))
-		{
-			process(node.right);
-		}
-		return true;
 	}
 	
 	static boolean isLeaf(Node12 node)
 	{
 		return node.left!=null || node.right!=null ? false : true;
 	}
+	
+	/*if (node == null)
+    return true;
+
+ false if this node violates the min/max constraints 
+if (node.data < min || node.data > max)
+    return false;
+
+ otherwise check the subtrees recursively
+tightening the min/max constraints 
+// Allow only distinct values
+return (process(node.left, min, node.data-1) &&
+		process(node.right, node.data+1, max));*/
+/*
+if( (node.left!=null && node.left.data >= node.data) || (node.right!=null && node.right.data <= node.data) 
+		
+		)
+{
+	return false;
+}
+
+if(node.left!=null && !isLeaf(node.left))
+{
+	process(node.left,min,max);
+}
+if(node.right!=null && !isLeaf(node.right))
+{
+	process(node.right,min,max);
+}
+return true;*/
 }

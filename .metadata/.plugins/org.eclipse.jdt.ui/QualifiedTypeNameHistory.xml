@@ -50,7 +50,6 @@
 <fullyQualifiedTypeName name="progs.IsBST"/>
 <fullyQualifiedTypeName name="progs.StackOperations"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="progs.Difference"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="progs.Arrays2d"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="progs.LevelOrder"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

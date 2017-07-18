@@ -1,17 +1,17 @@
 
-ƒsquid:S1149."PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ìü‡ üÿÿÿÿHŒ’RMAJORZ
+Œsquid:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÔÔÀ¬ûÿÿÿÿHÄ—RMINORZ
 CODE_SMELL
-f
-squid:S106*"9Replace this use of System.out or System.err by a logger.(Ö”Á‘H’RMAJORZ
+ssquid:S11556">Use isEmpty() to check whether the collection is empty or not.(ÁÑ•¹8‰ñŠ¹Ô+HÅ—RMINORZ
 CODE_SMELL
 dsquid:S1135
-"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH’RINFOZ
+"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÆ—RINFOZ
 CODE_SMELL
-ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ñî¤Á8Üó¹Ô+H’RMINORZ
+f
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Ö”Á‘HÇ—RMAJORZ
 CODE_SMELL
-Œsquid:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(ìü‡ üÿÿÿÿH’RMINORZ
+Œsquid:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(ìü‡ üÿÿÿÿHÈ—RMINORZ
 CODE_SMELL
-ssquid:S11556">Use isEmpty() to check whether the collection is empty or not.(ÁÑ•¹8‰ñŠ¹Ô+H‘’RMINORZ
+ssquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ñî¤Á8Üó¹Ô+HÉ—RMINORZ
 CODE_SMELL
-Œsquid:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÔÔÀ¬ûÿÿÿÿH’’RMINORZ
+ƒsquid:S1149."PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ìü‡ üÿÿÿÿHÊ—RMAJORZ
 CODE_SMELL
