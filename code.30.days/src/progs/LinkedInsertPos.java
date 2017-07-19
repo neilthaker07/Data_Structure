@@ -156,11 +156,63 @@ public class LinkedInsertPos {
 		}
 	}
 	
-	Node89 mergeLists(Node headA, Node headB) 
+	public Node89 mergeLists(Node89 headA, Node89 headB) 
 	{
-		
-		
-		return null;
+		Node89 head = null;
+		if (headA == null && headA == headB) 
+		{
+			return null;
+		}
+		else if (headA==null) 
+		{
+			head = headB;
+			Node89 t = headB;
+			while(t!=null)
+			{
+				t=t.next;
+			}
+			return head;
+		}
+		else if(headB==null)
+		{
+			head = headA;
+			Node89 t = headA;
+			while(t!=null)
+			{
+				t=t.next;
+			}
+			return head;
+		}
+		else 
+		{
+			if(headA.data < headB.data)
+            {
+                head = headA;
+                headA = headA.next;
+            }
+            else
+            {
+                head = headB;
+                headB = headB.next;
+            }
+			Node89 t = head;
+			while (headA != null || headB!=null)
+			{
+				if((headB!=null) && (headA == null || headA.data > headB.data))
+				{
+					t.next=headB;
+					t=headB;
+					headB = headB.next;
+				}
+				else if((headA!=null) && (headB == null || headA.data < headB.data))
+				{
+					t.next=headA;
+					t=headA;
+					headA = headA.next;
+				}
+			}
+			return head;
+		}
 	}
 	
 }
