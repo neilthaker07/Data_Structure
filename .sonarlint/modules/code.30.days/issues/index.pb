@@ -17,3 +17,9 @@ D
 src/progs/IsBST.java,a/c/ac0a740eccba96e2756fcf9180bd25eb57c5e531
 Q
 !src/progs/LinkedListCreate30.java,9/7/973bd981ad62b4cb5dd71809b8c46c0f390ea2c3
+E
+src/progs/StrInt.java,5/d/5d9b77ca94d49ad3b2ca0e80fcf8f184a6305a06
+H
+src/progs/JackLucky.java,0/8/0870ea7d4995634717cd32f48021409105f158b8
+N
+src/progs/LinkedInsertPos.java,7/d/7d2b5fb9087524194a3e62fa14842d59b9cbdcb0

@@ -22,6 +22,10 @@ public class LinkedInsertPos {
 		System.out.println("SIZE : "+p.size(p.h));
 		
 		System.out.println(p.getNode(p.h, 2));
+		
+		System.out.println(p.hasCycle(p.h));
+		
+		System.out.println(p.mergeLists(p.h, p.h));
 	}
 	Node89 h = null;
 	void nodeList(Node89 node)
@@ -215,9 +219,134 @@ public class LinkedInsertPos {
 		}
 	}
 	
+	public boolean hasCycle(Node89 head)
+	{
+		if(head == null)
+		{
+			return false;
+		}
+		else
+		{
+			Node89 ptr1 = head;
+			Node89 ptr2 = head.next;
+			
+			while(ptr1!=null && ptr2!=null)
+			{
+				if(ptr1==ptr2)
+				{
+					return true;
+				}
+				
+				if(ptr1.next == null || ptr2.next == null)
+				{
+					return false;
+				}
+				ptr1=ptr1.next;
+				ptr2=ptr2.next.next;
+			}
+			
+		}
+		return false;
+	}
+	
+	int FindMergeNode(Node89 headA, Node89 headB)
+	{
+		if(headA==null || headB==null)
+		{
+			return 0;
+		}
+		
+		Node89 t1 = headA;
+		Node89 t2 = headB;
+		
+		int s1=0;
+		while(t1!=null)
+		{
+			t1=t1.next;
+			s1++;
+		}
+		int s2=0;
+		while(t2!=null)
+		{
+			t2=t2.next;
+			s2++;
+		}
+		
+		if(t1==t2)
+		{
+			t1 = headA;
+			t2 = headB;
+			int diff = Math.abs(s1-s2);
+			if(s1>s2)
+			{
+				int count = 0;
+				while(count<diff)
+				{
+					t1=t1.next;
+					count++;
+				}
+			}
+			else if(s2>s1)
+			{
+				int count = 0;
+				while(count<diff)
+				{
+					t2=t2.next;
+					count++;
+				}
+			}
+			
+			while(t1!=null && t2.next!=null) 
+			{
+				if(t1.next == t2.next)
+				{
+					return t1.next.data;
+				}
+				t1=t1.next;
+				t2=t2.next;
+			}
+			return 0;
+		}
+		return 0;
+	}
+	
+	
+	Node89 reverseDoubly(Node89 head) 
+	{
+		Stack<Node89> a = new Stack<Node89>();
+		while(head!=null)
+		{
+			a.push(head);
+			head=head.next;
+		}
+		boolean b = false;
+		Node89 prevTemp = null;
+		while(!a.isEmpty())
+		{
+			if(!b)
+			{
+				head = new Node89();
+				b=true;
+				head.data = a.pop().data;
+				head.prev = null;
+				head.next = a.size() != 0 ? a.peek() : null;
+				prevTemp = head;
+			}
+			else
+			{
+				Node89 p = a.pop();
+				p.next = a.size() != 0 ? a.peek() : null;
+				p.prev = prevTemp;
+				prevTemp = p;
+			}
+		}
+		h=head;
+		return head;
+	}
 }
 
 class Node89 {
     int data;
     Node89 next;
+    Node89 prev;
  }
