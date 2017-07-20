@@ -19,13 +19,15 @@ public class LinkedInsertPos {
 		
 		p.nodeList(p.h);
 		
-		System.out.println("SIZE : "+p.size(p.h));
+		/*System.out.println("SIZE : "+p.size(p.h));
 		
 		System.out.println(p.getNode(p.h, 2));
 		
 		System.out.println(p.hasCycle(p.h));
 		
 		System.out.println(p.mergeLists(p.h, p.h));
+		*/
+		System.out.println(p.reversePairs(p.h).data);
 	}
 	Node89 h = null;
 	void nodeList(Node89 node)
@@ -342,6 +344,32 @@ public class LinkedInsertPos {
 		}
 		h=head;
 		return head;
+	}
+	
+	Node89 reversePairs(Node89 head)
+	{
+		Node89 returnHead = null;
+		if(head==null)
+		{
+			return null;
+		}
+		else
+		{
+			returnHead = head.next!=null ? head.next : head;
+			
+			Node89 tmp = null;
+			while(head!=null && head.next !=null)
+			{
+				tmp = head.next;
+				head.next = head.next.next;
+				tmp.next = head;
+				head = tmp;
+				
+				head = head.next.next;
+			}
+		}
+		
+		return returnHead;
 	}
 }
 
