@@ -371,6 +371,39 @@ public class LinkedInsertPos {
 		
 		return returnHead;
 	}
+	
+	Node89 circularPartition(Node89 head)
+	{
+		Node89 original = head;
+		int size =0;
+		while(head!=null)
+		{
+			head = head.next;
+			size++;
+		}
+		
+		int s1 = size%2==0 ? size/2 : (size/2) + 1;
+		int s2 = size/2;
+		
+		Node89 tmp1 = original;
+		Node89 tmp2 = original;
+		head = original;
+		for(int i=0;i<2;i++)
+		{
+			int count =0;
+			while(count<=s1)
+			{
+				tmp2 = head;
+				head=head.next;
+				count++;
+			}
+			
+			tmp2.next = tmp1;
+			tmp1 = head;
+			s1=s2;
+		}
+		return original;
+	}
 }
 
 class Node89 {

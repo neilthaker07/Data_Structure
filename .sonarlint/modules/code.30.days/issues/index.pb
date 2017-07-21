@@ -25,3 +25,5 @@ N
 src/progs/LinkedInsertPos.java,7/d/7d2b5fb9087524194a3e62fa14842d59b9cbdcb0
 M
 src/progs/MoreExceptions.java,2/8/28f70a255b27ebd7603f27fa5cd244ac2bc78b2d
+D
+src/progs/Day18.java,6/8/6894eccac4d6ccfc5e84e5dcebf214aa5d06896b
