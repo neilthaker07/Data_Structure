@@ -27,3 +27,7 @@ M
 src/progs/MoreExceptions.java,2/8/28f70a255b27ebd7603f27fa5cd244ac2bc78b2d
 D
 src/progs/Day18.java,6/8/6894eccac4d6ccfc5e84e5dcebf214aa5d06896b
+P
+ src/progs/AdvanceArithmetic.java,6/d/6dc538d8f44c891d7987af5c2843da26c302b8a7
+I
+src/progs/Solution12.java,8/6/867fc7d7e28faa49235f855d52ce4e0ec0b9f8f6

@@ -1,11 +1,15 @@
 
+‹squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹åÇ»üÿÿÿÿHÇŸRMINORZ
+CODE_SMELL
 r
-squid:S106'"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ8¾Ò‘“Ö+H±ŸRMAJORZ
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ8÷¾’·Ö+HèŸRMAJORZ
 CODE_SMELL
-dsquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHµŸRINFOZ
+]squid:S1125"(Remove the literal "true" boolean value.(ùìëÈ8ÕÅË·Ö+HñŸRMINORZ
 CODE_SMELL
-‹squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹åÇ»üÿÿÿÿH¤ŸRMINORZ
+]squid:S1125,"(Remove the literal "true" boolean value.(ùìëÈ8ÕÅË·Ö+HìŸRMINORZ
+CODE_SMELL
+dsquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÅŸRINFOZ
 CODE_SMELL
 ’
-squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ØìÌÊşÿÿÿÿ8„ş¨“Ö+H¼ŸRMINORZ
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ØìÌÊşÿÿÿÿ8ÕÅË·Ö+HğŸRMINORZ
 CODE_SMELL
