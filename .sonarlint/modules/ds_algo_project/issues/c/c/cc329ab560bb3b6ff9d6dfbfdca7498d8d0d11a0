@@ -1,0 +1,27 @@
+
+„squid:S1149""PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(›¯’g8…œÜÖ+H¯¢RMAJORZ
+CODE_SMELL
+squid:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(›¯’g8Ö¯³ÜÖ+H÷¢RMINORZ
+CODE_SMELL
+l
+squid:S106M"9Replace this use of System.out or System.err by a logger.(§“‰q8ù»ÓÜÖ+Hİ£RMAJORZ
+CODE_SMELL
+…squid:S1149P"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(§¶ôÜ8…Ü‘ÜÖ+H£¢RMAJORZ
+CODE_SMELL
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ÷›‡øÿÿÿÿ8ŸÁöÛÖ+Hø¡RMINORZ
+CODE_SMELL
+Šsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Çµí‘8¢ˆÌÜÖ+H«£RCRITICALZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª¢Æ¿8…Ü‘ÜÖ+H ¢RMINORZ
+CODE_SMELL
+Šsquid:S3776P"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(§¶ôÜ8 ŒÅİÖ+Hî¤RCRITICALZ
+CODE_SMELL
+dsquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÖ¡RINFOZ
+CODE_SMELL
+€squid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(âª‹²8Ö›ÑİÖ+Hı¤RMAJORZ
+CODE_SMELL
+†squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(â¢ıœH×¡RMINORZ
+CODE_SMELL
+squid:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(µĞ÷8ŸÁöÛÖ+H÷¡RMINORZ
+CODE_SMELL
