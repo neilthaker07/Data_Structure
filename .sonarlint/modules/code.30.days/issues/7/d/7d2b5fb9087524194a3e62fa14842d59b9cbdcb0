@@ -1,87 +1,87 @@
 
-|squid:S1226Â"AIntroduce a new variable instead of reusing the parameter "head".(‘¡–òùÿÿÿÿ8ÏŠç½Õ+Hö RMINORZ
+…squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾ó•Öşÿÿÿÿ8–›‰Ö+H§RMAJORZ
 CODE_SMELL
-{squid:S1226\"AIntroduce a new variable instead of reusing the parameter "head".(­ïŠ ùÿÿÿÿ8ˆëÌ¾Õ+H÷ RMINORZ
+„squid:S1149Q"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(òÉòA8®¼Ë¾Õ+H‚§RMAJORZ
 CODE_SMELL
-rsquid:S2589’"7Remove this expression which always evaluates to "true"(ÊıÔ¿ùÿÿÿÿ8é÷ÊÁÕ+Hø RMAJORZ
+}squid:S1226Å"BIntroduce a new variable instead of reusing the parameter "headA".(ÔØ’âúÿÿÿÿ8¬ôÓÄÕ+Hƒ§RMINORZ
 CODE_SMELL
-…squid:S1149¾"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(òÉòA8•åòãÕ+Hù RMAJORZ
+„squid:S00100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ƒ˜*8¬ÅÀÕ+H„§RMINORZ
 CODE_SMELL
-xsquid:S1226Ó"BIntroduce a new variable instead of reusing the parameter "headB".(½•¼ä8¬ôÓÄÕ+Hú RMINORZ
+vsquid:S2259"BA "NullPointerException" could be thrown; "head" is nullable here.(‘¡–òùÿÿÿÿ8¼´˜¹Ö+H…§RMAJORZBUG
+{squid:S1226U"AIntroduce a new variable instead of reusing the parameter "head".(‘¡–òùÿÿÿÿ8ê•Ş¾Õ+H†§RMINORZ
 CODE_SMELL
-{squid:S1226."AIntroduce a new variable instead of reusing the parameter "head".(­ïŠ ùÿÿÿÿ8Á°Ó¼Õ+Hû RMINORZ
+Šsquid:S00100ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüÿÿÿÿ8¤î­áÕ+H‡§RMINORZ
 CODE_SMELL
-}squid:S1226Ù"BIntroduce a new variable instead of reusing the parameter "headA".(ÔØ’âúÿÿÿÿ8Í€ÁÕ+Hü RMINORZ
+ssquid:S1155_">Use isEmpty() to check whether the collection is empty or not.(ü¸Ïò8­Ø–¿Õ+Hˆ§RMINORZ
 CODE_SMELL
-}squid:S1226Å"BIntroduce a new variable instead of reusing the parameter "headA".(ÔØ’âúÿÿÿÿ8¬ôÓÄÕ+Hı RMINORZ
+xsquid:S1226Ê"BIntroduce a new variable instead of reusing the parameter "headB".(½•¼ä8Í€ÁÕ+H‰§RMINORZ
 CODE_SMELL
-wsquid:S1226†"AIntroduce a new variable instead of reusing the parameter "head".(«¥­—8ÀÛ–¹Ö+Hş RMINORZ
-CODE_SMELL
-squid:S3776ş"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÿüÿÿÿÿ8’ÕëáÕ+Hÿ RCRITICALZ
-CODE_SMELL
-xsquid:S1155d">Use isEmpty() to check whether the collection is empty or not.(²–ºíøÿÿÿÿ8•åòãÕ+H€¡RMINORZ
-CODE_SMELL
-tsquid:S1155Î">Use isEmpty() to check whether the collection is empty or not.(ü¸Ïò8•åòãÕ+H¡RMINORZ
-CODE_SMELL
-rsquid:S2589š"7Remove this expression which always evaluates to "true"(‡Îä—ûÿÿÿÿ8é÷ÊÁÕ+H‚¡RMAJORZ
-CODE_SMELL
-vsquid:S2259"BA "NullPointerException" could be thrown; "head" is nullable here.(‘¡–òùÿÿÿÿ8¼´˜¹Ö+Hƒ¡RMAJORZBUG
-|squid:S1226ı"AIntroduce a new variable instead of reusing the parameter "head".(‘¡–òùÿÿÿÿ8ß¯Š¹Ö+H„¡RMINORZ
-CODE_SMELL
-„squid:S1149Q"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(òÉòA8®¼Ë¾Õ+H…¡RMAJORZ
+}squid:S1226"BIntroduce a new variable instead of reusing the parameter "headA".(ÔØ’âúÿÿÿÿ8·²µÄÕ+HŠ§RMINORZ
 CODE_SMELL
 r
-squid:S106%"9Replace this use of System.out or System.err by a logger.(¶úƒºûÿÿÿÿ8›Ì—‰Ö+H†¡RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(´ÃÓüÿÿÿÿ8øúıáÕ+H‹§RMAJORZ
 CODE_SMELL
-squid:S2293¾"YReplace the type specification in this constructor call with the diamond operator ("<>").(òÉòA8ô”Ë¾Õ+H‡¡RMINORZ
+squid:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(áÍÙÀøÿÿÿÿ8¤×®ÄÕ+HŒ§RCRITICALZ
 CODE_SMELL
-Šsquid:S3776Œ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(©ƒ˜*8ĞÎÁÕ+Hˆ¡RCRITICALZ
+{squid:S12265"AIntroduce a new variable instead of reusing the parameter "head".(­ïŠ ùÿÿÿÿ8•åòãÕ+H§RMINORZ
 CODE_SMELL
-squid:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(òÉòA8•åòãÕ+H‰¡RMINORZ
+msquid:S2589•"7Remove this expression which always evaluates to "true"(Ô’ÛÙ8¶¦úáÕ+H§RMAJORZ
 CODE_SMELL
-rsquid:S2589Õ"7Remove this expression which always evaluates to "true"(å•ı¬şÿÿÿÿ8Ü—íÄÕ+HŠ¡RMAJORZ
+wsquid:S1226ğ"AIntroduce a new variable instead of reusing the parameter "head".(³ã»¼8•åòãÕ+H§RMINORZ
 CODE_SMELL
-ysquid:S1155Ô">Use isEmpty() to check whether the collection is empty or not.(²–ºíøÿÿÿÿ8Áı–¿Õ+H‹¡RMINORZ
+squid:S3776ş"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ÿüÿÿÿÿ8’ÕëáÕ+H§RCRITICALZ
 CODE_SMELL
-{squid:S12265"AIntroduce a new variable instead of reusing the parameter "head".(­ïŠ ùÿÿÿÿ8•åòãÕ+HŒ¡RMINORZ
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‘§RINFOZ
 CODE_SMELL
-msquid:S2589•"7Remove this expression which always evaluates to "true"(Ô’ÛÙ8¶¦úáÕ+H¡RMAJORZ
+}squid:S1226Ù"BIntroduce a new variable instead of reusing the parameter "headA".(ÔØ’âúÿÿÿÿ8Í€ÁÕ+H’§RMINORZ
 CODE_SMELL
-{squid:S1226U"AIntroduce a new variable instead of reusing the parameter "head".(‘¡–òùÿÿÿÿ8ê•Ş¾Õ+H¡RMINORZ
+|squid:S1226"AIntroduce a new variable instead of reusing the parameter "head".(‘¡–òùÿÿÿÿ8¼´˜¹Ö+H“§RMINORZ
 CODE_SMELL
-rsquid:S2589š"7Remove this expression which always evaluates to "true"(‡Îä—ûÿÿÿÿ8ĞÎÁÕ+H¡RMAJORZ
+Šsquid:S3776Œ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(©ƒ˜*8ĞÎÁÕ+H”§RCRITICALZ
 CODE_SMELL
-xsquid:S1226Ÿ"BIntroduce a new variable instead of reusing the parameter "headB".(½•¼ä8±µ›ÄÕ+H¡RMINORZ
+rsquid:S2589š"7Remove this expression which always evaluates to "true"(‡Îä—ûÿÿÿÿ8é÷ÊÁÕ+H•§RMAJORZ
 CODE_SMELL
-wsquid:S1226ğ"AIntroduce a new variable instead of reusing the parameter "head".(³ã»¼8•åòãÕ+H‘¡RMINORZ
+vsquid:S1226&"AIntroduce a new variable instead of reusing the parameter "node".(ÒÎÉû8çÃÆ½Õ+H–§RMINORZ
 CODE_SMELL
-…squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾ó•Öşÿÿÿÿ8–›‰Ö+H’¡RMAJORZ
-CODE_SMELL
-ssquid:S1155_">Use isEmpty() to check whether the collection is empty or not.(ü¸Ïò8­Ø–¿Õ+H“¡RMINORZ
-CODE_SMELL
-vsquid:S1226&"AIntroduce a new variable instead of reusing the parameter "node".(ÒÎÉû8çÃÆ½Õ+H”¡RMINORZ
-CODE_SMELL
-|squid:S1226"AIntroduce a new variable instead of reusing the parameter "head".(‘¡–òùÿÿÿÿ8¼´˜¹Ö+H•¡RMINORZ
-CODE_SMELL
-}squid:S1226"BIntroduce a new variable instead of reusing the parameter "headA".(ÔØ’âúÿÿÿÿ8·²µÄÕ+H–¡RMINORZ
-CODE_SMELL
-„squid:S00100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ƒ˜*8¬ÅÀÕ+H—¡RMINORZ
-CODE_SMELL
-wsquid:S1226î"AIntroduce a new variable instead of reusing the parameter "head".(›©˜‰8Êü‹‰Ö+H˜¡RMINORZ
+rsquid:S2589Õ"7Remove this expression which always evaluates to "true"(å•ı¬şÿÿÿÿ8Ü—íÄÕ+H—§RMAJORZ
 CODE_SMELL
 r
-squid:S106"9Replace this use of System.out or System.err by a logger.(´ÃÓüÿÿÿÿ8øúıáÕ+H™¡RMAJORZ
+squid:S106%"9Replace this use of System.out or System.err by a logger.(¶úƒºûÿÿÿÿ8›Ì—‰Ö+H˜§RMAJORZ
 CODE_SMELL
-xsquid:S1226Ê"BIntroduce a new variable instead of reusing the parameter "headB".(½•¼ä8Í€ÁÕ+Hš¡RMINORZ
+squid:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(òÉòA8•åòãÕ+H™§RMINORZ
 CODE_SMELL
-rsquid:S2589’"7Remove this expression which always evaluates to "true"(ÊıÔ¿ùÿÿÿÿ8ĞÎÁÕ+H›¡RMAJORZ
+ysquid:S1155Ô">Use isEmpty() to check whether the collection is empty or not.(²–ºíøÿÿÿÿ8Áı–¿Õ+Hš§RMINORZ
 CODE_SMELL
-|squid:S1226Ê"AIntroduce a new variable instead of reusing the parameter "head".(­ïŠ ùÿÿÿÿ8ıœ‰Ö+Hœ¡RMINORZ
+squid:S2293¾"YReplace the type specification in this constructor call with the diamond operator ("<>").(òÉòA8ô”Ë¾Õ+H›§RMINORZ
 CODE_SMELL
-qsquid:S2259‘"BA "NullPointerException" could be thrown; "tmp2" is nullable here.(Š£À8ú¯­¹Ö+H¡RMAJORZBUG
-Šsquid:S00100ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿüÿÿÿÿ8¤î­áÕ+H¡RMINORZ
+|squid:S1226Ê"AIntroduce a new variable instead of reusing the parameter "head".(­ïŠ ùÿÿÿÿ8ıœ‰Ö+Hœ§RMINORZ
 CODE_SMELL
-dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHŸ¡RINFOZ
+wsquid:S1226î"AIntroduce a new variable instead of reusing the parameter "head".(›©˜‰8Êü‹‰Ö+H§RMINORZ
 CODE_SMELL
-squid:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(áÍÙÀøÿÿÿÿ8¤×®ÄÕ+H ¡RCRITICALZ
+rsquid:S2589š"7Remove this expression which always evaluates to "true"(‡Îä—ûÿÿÿÿ8ĞÎÁÕ+H§RMAJORZ
+CODE_SMELL
+wsquid:S1226†"AIntroduce a new variable instead of reusing the parameter "head".(«¥­—8ÀÛ–¹Ö+HŸ§RMINORZ
+CODE_SMELL
+rsquid:S2589’"7Remove this expression which always evaluates to "true"(ÊıÔ¿ùÿÿÿÿ8é÷ÊÁÕ+H §RMAJORZ
+CODE_SMELL
+…squid:S1149¾"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(òÉòA8•åòãÕ+H¡§RMAJORZ
+CODE_SMELL
+{squid:S1226\"AIntroduce a new variable instead of reusing the parameter "head".(­ïŠ ùÿÿÿÿ8ˆëÌ¾Õ+H¢§RMINORZ
+CODE_SMELL
+xsquid:S1155d">Use isEmpty() to check whether the collection is empty or not.(²–ºíøÿÿÿÿ8•åòãÕ+H£§RMINORZ
+CODE_SMELL
+|squid:S1226Â"AIntroduce a new variable instead of reusing the parameter "head".(‘¡–òùÿÿÿÿ8ÏŠç½Õ+H¤§RMINORZ
+CODE_SMELL
+qsquid:S2259‘"BA "NullPointerException" could be thrown; "tmp2" is nullable here.(Š£À8ú¯­¹Ö+H¥§RMAJORZBUG
+tsquid:S1155Î">Use isEmpty() to check whether the collection is empty or not.(ü¸Ïò8•åòãÕ+H¦§RMINORZ
+CODE_SMELL
+|squid:S1226ı"AIntroduce a new variable instead of reusing the parameter "head".(‘¡–òùÿÿÿÿ8ß¯Š¹Ö+H§§RMINORZ
+CODE_SMELL
+xsquid:S1226Ó"BIntroduce a new variable instead of reusing the parameter "headB".(½•¼ä8¬ôÓÄÕ+H¨§RMINORZ
+CODE_SMELL
+{squid:S1226."AIntroduce a new variable instead of reusing the parameter "head".(­ïŠ ùÿÿÿÿ8Á°Ó¼Õ+H©§RMINORZ
+CODE_SMELL
+rsquid:S2589’"7Remove this expression which always evaluates to "true"(ÊıÔ¿ùÿÿÿÿ8ĞÎÁÕ+Hª§RMAJORZ
+CODE_SMELL
+xsquid:S1226Ÿ"BIntroduce a new variable instead of reusing the parameter "headB".(½•¼ä8±µ›ÄÕ+H«§RMINORZ
 CODE_SMELL

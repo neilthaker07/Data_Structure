@@ -33,3 +33,5 @@ I
 src/progs/Solution12.java,8/6/867fc7d7e28faa49235f855d52ce4e0ec0b9f8f6
 G
 src/progs/SortTemp.java,b/2/b2c01c75811c1841cdbadf92a553aad3583ca85a
+G
+src/progs/Generics.java,e/d/ed53ff4be352680f18e7bbadd151be6dcee02448

@@ -1,0 +1,15 @@
+
+rsquid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ÉØ³‡×+H‹¦RMINORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÚÌÜB8ÉØ³‡×+HŒ¦RMINORZ
+CODE_SMELL
+msquid:S1197""8Move the array designator from the variable to the type.(ºÜ°Á8ûæ·‡×+H¦RMINORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Å­˜Å8ÉØ³‡×+H¦RMINORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘Äÿ¥8ÉØ³‡×+H¦RMAJORZ
+CODE_SMELL
+r
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ8šë¹‡×+HŸ¦RMAJORZ
+CODE_SMELL
