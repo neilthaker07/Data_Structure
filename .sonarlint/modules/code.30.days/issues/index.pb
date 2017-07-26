@@ -35,3 +35,7 @@ G
 src/progs/SortTemp.java,b/2/b2c01c75811c1841cdbadf92a553aad3583ca85a
 G
 src/progs/Generics.java,e/d/ed53ff4be352680f18e7bbadd151be6dcee02448
+B
+src/progs/Sol.java,4/5/45b796d7aacbd01f149d8bc716e6772e83a5bce1
+H
+src/progs/LevelTest.java,7/a/7a74c6efc37db301d07d80f9f21f30bf273cf0fb

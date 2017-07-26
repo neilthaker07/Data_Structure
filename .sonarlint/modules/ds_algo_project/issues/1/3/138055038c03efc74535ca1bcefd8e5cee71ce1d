@@ -1,0 +1,23 @@
+
+†squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(â¢ıœHç©RMINORZ
+CODE_SMELL
+…squid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(†–Îèùÿÿÿÿ8”î ¹×+H«ªRMAJORZ
+CODE_SMELL
+msquid:S1197C"8Move the array designator from the variable to the type.(»Ö¶Á8¬ÔŒ·×+HªRMINORZ
+CODE_SMELL
+r
+squid:S106G"9Replace this use of System.out or System.err by a logger.(ŒıÚ¨ûÿÿÿÿ8Ç²¹×+H¹ªRMAJORZ
+CODE_SMELL
+xsquid:S12267">Introduce a new variable instead of reusing the parameter "l".(Š¶…şÿÿÿÿ8“¿“·×+H¦ªRMINORZ
+CODE_SMELL
+csquid:S1481	")Remove this unused "path" local variable.(ÌÏ¹ôúÿÿÿÿ8”î ¹×+H¬ªRMINORZ
+CODE_SMELL
+€squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Î©î8óôù¶×+H—ªRMAJORZ
+CODE_SMELL
+€squid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(Úøáş8óôù¶×+H˜ªRMAJORZ
+CODE_SMELL
+rsquid:S1854	"8Remove this useless assignment to local variable "path".(ÌÏ¹ôúÿÿÿÿ8”î ¹×+H­ªRMAJORZ
+CODE_SMELL
+€squid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(êµË8óôù¶×+H™ªRMAJORZ
+CODE_SMELL

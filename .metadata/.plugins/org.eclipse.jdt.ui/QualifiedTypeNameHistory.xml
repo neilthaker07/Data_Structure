@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="sortingSearching.Player"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="sortingSearching.MaxHeapify"/>
 <fullyQualifiedTypeName name="sortingSearching.HeapTree"/>
@@ -27,7 +26,6 @@
 <fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="narsimKar.Ch2No1"/>
-<fullyQualifiedTypeName name="narsimKar.LinkedListInsertion"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
 <fullyQualifiedTypeName name="progs.Person11"/>
@@ -50,14 +48,16 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Character"/>
 <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="narsimKar.QueueImplUsingStacks"/>
-<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="narsimKar.BTHeight"/>
+<fullyQualifiedTypeName name="narsimKar.ReverseLevelOrder"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="narsimKar.LinkedListInsertion"/>
 <fullyQualifiedTypeName name="narsimKar.StackImplUsingQueues"/>
+<fullyQualifiedTypeName name="narsimKar.Node78"/>
+<fullyQualifiedTypeName name="progs.LinkedListCreate30"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="narsimKar.BTHeight"/>
-<fullyQualifiedTypeName name="narsimKar.Node78"/>
-<fullyQualifiedTypeName name="narsimKar.ReverseLevelOrder"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
 </qualifiedTypeNameHistroy>

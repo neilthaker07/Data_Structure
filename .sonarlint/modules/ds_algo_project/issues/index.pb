@@ -17,3 +17,9 @@ K
 src/narsimKar/BTHeight.java,4/b/4b4ebc4db1750db4524f1ad462fb128e7b5f9e11
 T
 $src/narsimKar/ReverseLevelOrder.java,0/a/0abbbf66b88ccf559f2b626b47f83f0ed6fa7d4d
+Q
+!src/narsimKar/RootToLeafPath.java,1/3/138055038c03efc74535ca1bcefd8e5cee71ce1d
+S
+#src/narsimKar/DepthIteratively.java,f/b/fb98cb8a8ed88a9abba5394f98d51c939494f6e0
+Y
+)src/narsimKar/IsomorphicQuasimorphic.java,e/e/eeb573fbce3c7341b964b6564fd51ead2d32c6a5

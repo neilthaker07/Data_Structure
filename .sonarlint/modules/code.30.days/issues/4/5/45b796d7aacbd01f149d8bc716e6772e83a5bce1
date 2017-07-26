@@ -1,0 +1,10 @@
+
+m
+squid:S106<"9Replace this use of System.out or System.err by a logger.(×²Üù8¬Ç­×+H¥¨RMAJORZ
+CODE_SMELL
+]squid:S1659A"#Declare "right" on a separate line.(‘ç©úÿÿÿÿ8äüÇ­×+H«¨RMINORZ
+CODE_SMELL
+Œsquid:S001175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´ª»üÿÿÿÿ8¬Ç­×+H¦¨RMINORZ
+CODE_SMELL
+rsquid:S11973"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8¬Ç­×+H¤¨RMINORZ
+CODE_SMELL
