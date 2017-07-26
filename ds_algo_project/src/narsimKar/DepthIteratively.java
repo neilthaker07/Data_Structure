@@ -2,6 +2,7 @@ package narsimKar;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class DepthIteratively {
 
@@ -11,7 +12,9 @@ public class DepthIteratively {
 		DepthIteratively p = new DepthIteratively();
 		p.createBT();
 		int h = p.depth(p.root);
-		System.out.println(h);
+		//System.out.println(h);
+		
+		p.zigzag(p.root);
 	}
 
 	public void createBT()
@@ -70,6 +73,63 @@ public class DepthIteratively {
 			}
 			else
 			{
+				if(n.left!=null)
+				{
+					q.add(n.left);
+				}
+				if(n.right!=null)
+				{
+					q.add(n.right);
+				}
+			}
+		}
+		return level;
+	}
+	
+	Queue<Node78> q2 = new LinkedList<Node78>();
+	Stack<Node78> s2 = new Stack<Node78>();
+	boolean sFlag = false;
+	public int zigzag(Node78 root)
+	{
+		Node78 temp = new Node78();
+		temp.data=0;
+		int level = 0;
+		q.add(root);
+		q.add(temp);
+		while(!q.isEmpty())
+		{
+			Node78 n = q.remove();
+			if(n==temp)
+			{
+				if(sFlag)
+				{
+					while(!s2.isEmpty())
+					{
+						System.out.println(s2.pop().data);
+					}
+					sFlag = false;
+				}
+				else
+				{
+					sFlag = true;
+				}
+
+				if(!q.isEmpty())
+				{
+					q.add(temp);
+				}
+			}
+			else
+			{
+				if(sFlag)
+				{
+					s2.push(n);
+				}
+				else
+				{
+					System.out.println(n.data);
+				}
+				
 				if(n.left!=null)
 				{
 					q.add(n.left);
