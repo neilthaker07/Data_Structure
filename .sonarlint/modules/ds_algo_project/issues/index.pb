@@ -23,3 +23,15 @@ S
 #src/narsimKar/DepthIteratively.java,f/b/fb98cb8a8ed88a9abba5394f98d51c939494f6e0
 Y
 )src/narsimKar/IsomorphicQuasimorphic.java,e/e/eeb573fbce3c7341b964b6564fd51ead2d32c6a5
+Z
+*src/narsimKar/KthSmallestElementInBST.java,9/6/9635b87d7ff9ae17f187e15964d0bb9f12927e72
+T
+$src/sortingSearching/HeapSort22.java,0/4/04afca89437dbd307f2bf687794f17ef0d53bfa5
+O
+src/sortingSearching/Heaps.java,3/6/36c8eab8f010bfaa2f382c647d99962b628e95fb
+Q
+!src/sortingSearching/Heapify.java,c/0/c0242c8b9b0aae29b44d8f206992bd7cc41f3f91
+P
+ src/hashing/HashTableSample.java,f/1/f1a545cd651f31870234d75e2599e7686ffda4ac
+K
+src/hashing/RemoveDups.java,d/1/d166a76e2969c8c227d4ee2fbe3942df222646d3

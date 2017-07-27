@@ -1,0 +1,13 @@
+
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(€Ρ	8ΰατΨ+H­°RMAJORZ
+CODE_SMELL
+dsquid:S1135
+"2Complete the task associated to this TODO comment.(» ζÿÿÿÿÿH°RINFOZ
+CODE_SMELL
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ψ•ξ¤ψÿÿÿÿ8®όγΨ+H§°RMINORZ
+CODE_SMELL
+squid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ψ•ξ¤ψÿÿÿÿ8®όγΨ+Hª°RMAJORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(π„Òΰÿÿÿÿÿ8“’ΰΨ+H΅°RMINORZ
+CODE_SMELL
