@@ -1,0 +1,14 @@
+
+msquid:S1197"8Move the array designator from the variable to the type.(æ¤æÉ8­§¶¯Ø+HÈ²RMINORZ
+CODE_SMELL
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(²‚éÈùÿÿÿÿ8 ş­¯Ø+HÀ²RMINORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(Ó×³Ïşÿÿÿÿ8€ƒ¤¯Ø+H´²RMINORZ
+CODE_SMELL
+‹squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹åÇ»üÿÿÿÿHª²RMINORZ
+CODE_SMELL
+m
+squid:S106)"9Replace this use of System.out or System.err by a logger.(‘şòÖ8›í·¯Ø+HÊ²RMAJORZ
+CODE_SMELL
+squid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(²‚éÈùÿÿÿÿ8 ş­¯Ø+HÁ²RMAJORZ
+CODE_SMELL

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="linkedListEx.CreationLinkedList"/>
-<fullyQualifiedTypeName name="linkedListEx.Node"/>
-<fullyQualifiedTypeName name="linkedListEx.LinkedListCycleCheck"/>
-<fullyQualifiedTypeName name="linkedListEx.IntersectionLinkedListFinal"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="recursionDp.MagicIndex"/>
 <fullyQualifiedTypeName name="recursionDp.Subsets"/>
 <fullyQualifiedTypeName name="java.security.AllPermission"/>
@@ -41,8 +36,6 @@
 <fullyQualifiedTypeName name="progs.AdvanceArithmetic"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="narsimKar.QueueImplUsingStacks"/>
 <fullyQualifiedTypeName name="narsimKar.BTHeight"/>
 <fullyQualifiedTypeName name="narsimKar.ReverseLevelOrder"/>
@@ -51,7 +44,6 @@
 <fullyQualifiedTypeName name="narsimKar.Node78"/>
 <fullyQualifiedTypeName name="progs.LinkedListCreate30"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="narsimKar.KthSmallestElementInBST"/>
 <fullyQualifiedTypeName name="sortingSearching.Heapify"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -59,5 +51,13 @@
 <fullyQualifiedTypeName name="sortingSearching.MaxHeap"/>
 <fullyQualifiedTypeName name="hashing.RemoveDups"/>
 <fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="hashing.HashingImpl.MyHashTable"/>
+<fullyQualifiedTypeName name="hashing.MyHashTableNode"/>
+<fullyQualifiedTypeName name="hashing.MyHashNode"/>
+<fullyQualifiedTypeName name="hashing.MyHashTable"/>
+<fullyQualifiedTypeName name="sortingSearching.CountingSort"/>
+<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.util.Hashtable"/>
 </qualifiedTypeNameHistroy>

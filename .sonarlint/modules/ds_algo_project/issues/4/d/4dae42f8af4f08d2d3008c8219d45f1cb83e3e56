@@ -1,0 +1,14 @@
+
+†squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(â¢ıœHâ´RMINORZ
+CODE_SMELL
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(²‚éÈùÿÿÿÿ8¯Ñ¥ƒÙ+Hô´RMINORZ
+CODE_SMELL
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õ“ÙÌûÿÿÿÿ8“ˆ¬ƒÙ+Hü´RMAJORZ
+CODE_SMELL
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHá´RINFOZ
+CODE_SMELL
+squid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(²‚éÈùÿÿÿÿ8¯Ñ¥ƒÙ+H÷´RMAJORZ
+CODE_SMELL
+rsquid:S1197	"8Move the array designator from the variable to the type.(¦·â°ÿÿÿÿÿ8ó¶ƒÙ+Hæ´RMINORZ
+CODE_SMELL

@@ -1,16 +1,16 @@
 
-Œsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ôîëøÿÿÿÿH•°RMINORZ
-CODE_SMELL
-f
-squid:S106"9Replace this use of System.out or System.err by a logger.(îÌêùH–°RMAJORZ
-CODE_SMELL
 k
-squid:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿH—°RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿHž±RMAJORZ
 CODE_SMELL
 f
-squid:S106"9Replace this use of System.out or System.err by a logger.(«á·ÍH˜°RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(«á·ÍHŸ±RMAJORZ
 CODE_SMELL
-dsquid:S1135	"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH™°RINFOZ
+dsquid:S1135	"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH ±RINFOZ
 CODE_SMELL
-‰squid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(£ôîëøÿÿÿÿHš°RMAJORZ
+f
+squid:S106"9Replace this use of System.out or System.err by a logger.(îÌêùH¡±RMAJORZ
+CODE_SMELL
+Œsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£ôîëøÿÿÿÿH¢±RMINORZ
+CODE_SMELL
+‰squid:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(£ôîëøÿÿÿÿH£±RMAJORZ
 CODE_SMELL

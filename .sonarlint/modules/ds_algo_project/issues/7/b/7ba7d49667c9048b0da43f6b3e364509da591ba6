@@ -1,0 +1,10 @@
+
+_squid:S1481%"*Remove this unused "index" local variable.(ìüà·8ƒœ•®Ø+Hí±RMINORZ
+CODE_SMELL
+msquid:S2259"?A "NullPointerException" could be thrown; "h" is nullable here.(¬Û­8ÿÈ£¬Ø+H¿±RMAJORZBUG
+wsquid:UselessImportCheck"0Remove this unused import 'java.util.Hashtable'.(Œ»ÏÊüÿÿÿÿ8ƒœ•®Ø+Hï±RMINORZ
+CODE_SMELL
+bsquid:S1172#"(Remove this unused method parameter "h".(ÙÄ¹üøÿÿÿÿ8ƒœ•®Ø+Hî±RMAJORZ
+CODE_SMELL
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¥±RINFOZ
+CODE_SMELL

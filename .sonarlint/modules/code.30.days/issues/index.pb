@@ -41,3 +41,9 @@ H
 src/progs/LevelTest.java,7/a/7a74c6efc37db301d07d80f9f21f30bf273cf0fb
 I
 src/progs/MoreLinked.java,b/e/befdbf16da2de367bb1b14dc1c6a99574d7de199
+H
+src/progs/PrimeTest.java,0/c/0c5042fae8c3b1b0461581a5c9ba6e50f0693141
+D
+src/progs/Loops.java,9/2/92c245c2d4b94ff0433c20dfa76fb7c7cc530d44
+F
+src/progs/Nesting.java,1/4/1475f5f0d99676c56e371f38eb4ffc6b9f7e44ab
