@@ -1,0 +1,13 @@
+
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHÆ¹RINFOZ
+CODE_SMELL
+r
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ÉÊÀ£üÿÿÿÿ8ìÍÌ©Û+HÇ¹RMAJORZ
+CODE_SMELL
+msquid:S1197"8Move the array designator from the variable to the type.(‰ßÏÝ8¢¾Î©Û+HÈ¹RMINORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(Ë×±ûÿÿÿÿÿ8ìÍÌ©Û+HÉ¹RMINORZ
+CODE_SMELL
+‹squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹åÇ»üÿÿÿÿHÊ¹RMINORZ
+CODE_SMELL

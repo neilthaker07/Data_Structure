@@ -1,16 +1,15 @@
 package sortingSearching;
 
-public class SortedRotatedSearching {
-
+public class BitonicArraySearchUpDown {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int array[] = new int[]{7,9,1,2,3,4,5};
+		int array[] = new int[]{8,9,6,5,4,3,2};
 		
 		System.out.println("POSITION : "+process(array, 0, array.length-1));
 	}
-	static int find = 5;
+	static int find = 2;
 	public static int process(int a[], int l ,int r)
 	{
 		if(l>r)
@@ -35,7 +34,7 @@ public class SortedRotatedSearching {
 		}
 		else
 		{
-			if(find >a[mid] && find <= a[r])
+			if(find<a[mid] && a[r]<=find)
 			{
 				l=mid+1;
 			}

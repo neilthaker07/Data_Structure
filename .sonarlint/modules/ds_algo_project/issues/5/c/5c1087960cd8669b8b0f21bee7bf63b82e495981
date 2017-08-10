@@ -1,12 +1,14 @@
 
-€squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ï²½8Ë‰†Ù+HªµRMAJORZ
+…squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ðïþ«ûÿÿÿÿ8È–ŸÛ+Hƒ¸RMAJORZ
 CODE_SMELL
-†squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(â¢ýœH«µRMINORZ
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHøµRINFOZ
+CODE_SMELL
+†squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(â¢ýœHùµRMINORZ
+CODE_SMELL
+€squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ï²½8Ë‰†Ù+HúµRMAJORZ
+CODE_SMELL
+rsquid:S1197	"8Move the array designator from the variable to the type.(®¼‘•úÿÿÿÿ8…Œ—ŸÛ+H…¸RMINORZ
 CODE_SMELL
 r
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾¡ßïýÿÿÿÿ8³š€†Ù+H¬µRMAJORZ
-CODE_SMELL
-rsquid:S1197	"8Move the array designator from the variable to the type.(®¼‘•úÿÿÿÿ8Õà÷…Ù+H­µRMINORZ
-CODE_SMELL
-dsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH®µRINFOZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾¡ßïýÿÿÿÿ8…Œ—ŸÛ+H†¸RMAJORZ
 CODE_SMELL

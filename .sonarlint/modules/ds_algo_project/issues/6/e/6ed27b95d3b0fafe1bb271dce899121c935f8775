@@ -1,0 +1,20 @@
+
+qsquid:S1226,">Introduce a new variable instead of reusing the parameter "r".(¿ù±‰úÿÿÿÿHÑ¸RMINORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òë·éýÿÿÿÿHÌ¸RMAJORZ
+CODE_SMELL
+‹squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹åÇ»üÿÿÿÿHÒ¸RMINORZ
+CODE_SMELL
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHÍ¸RINFOZ
+CODE_SMELL
+qsquid:S1226">Introduce a new variable instead of reusing the parameter "r".(¿ù±‰úÿÿÿÿHÎ¸RMINORZ
+CODE_SMELL
+lsquid:S1226!">Introduce a new variable instead of reusing the parameter "l".(ÿÅÏ©HÏ¸RMINORZ
+CODE_SMELL
+esquid:S1197	"8Move the array designator from the variable to the type.(ŠÞ´LHÊ¸RMINORZ
+CODE_SMELL
+lsquid:S1226(">Introduce a new variable instead of reusing the parameter "l".(ÿÅÏ©HÐ¸RMINORZ
+CODE_SMELL
+ksquid:S1197"8Move the array designator from the variable to the type.(•ÎºïøÿÿÿÿHË¸RMINORZ
+CODE_SMELL

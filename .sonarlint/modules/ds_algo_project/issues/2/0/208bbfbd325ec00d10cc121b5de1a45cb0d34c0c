@@ -1,0 +1,27 @@
+
+ˆsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(®ùÿÿÿÿHÈ¸RCRITICALZ
+CODE_SMELL
+ksquid:S1197"8Move the array designator from the variable to the type.(û¡°òùÿÿÿÿH¿¸RMINORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(şÏñ”üÿÿÿÿHÃ¸RMAJORZ
+CODE_SMELL
+fsquid:S1197"8Move the array designator from the variable to the type.(¦•Õ“H¾¸RMINORZ
+CODE_SMELL
+`squid:S1199/"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿHÂ¸RMINORZ
+CODE_SMELL
+ysquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(ñ•ÇHÄ¸RMAJORZ
+CODE_SMELL
+f
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(Ï‘ùıHÆ¸RMAJORZ
+CODE_SMELL
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÇ¸RINFOZ
+CODE_SMELL
+`squid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿHÁ¸RMINORZ
+CODE_SMELL
+ksquid:S1197&"8Move the array designator from the variable to the type.(ê‡ùüûÿÿÿÿHÀ¸RMINORZ
+CODE_SMELL
+‹squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹åÇ»üÿÿÿÿHÉ¸RMINORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(€“ªµıÿÿÿÿHÅ¸RMAJORZ
+CODE_SMELL

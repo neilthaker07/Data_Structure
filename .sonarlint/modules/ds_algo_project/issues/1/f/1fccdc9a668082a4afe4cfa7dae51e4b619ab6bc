@@ -1,0 +1,17 @@
+
+rsquid:S1197"8Move the array designator from the variable to the type.(•Îºïøÿÿÿÿ8şÜ°£Û+Hÿ¸RMINORZ
+CODE_SMELL
+r
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(Òë·éıÿÿÿÿ8şÜ°£Û+H€¹RMAJORZ
+CODE_SMELL
+ssquid:S1226">Introduce a new variable instead of reusing the parameter "r".(ºÌÁô8” ¶¤Û+H’¹RMINORZ
+CODE_SMELL
+‹squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¹åÇ»üÿÿÿÿHı¸RMINORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(ùš¹ùÿÿÿÿ8şÜ°£Û+Hş¸RMINORZ
+CODE_SMELL
+ksquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8şÜ°£Û+H¹RINFOZ
+CODE_SMELL
+ssquid:S1226">Introduce a new variable instead of reusing the parameter "l".(ÿÅÏ©8” ¶¤Û+H‘¹RMINORZ
+CODE_SMELL
