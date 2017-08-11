@@ -1,30 +1,0 @@
-
-psquid:S1854"6Remove this useless assignment to local variable "d1".(Υέσϊÿÿÿÿ8‰Ν”ύΨ+Hη³RMAJORZ
-CODE_SMELL
-psquid:S1854"6Remove this useless assignment to local variable "m2".(ΡΫ€όÿÿÿÿ8‰Ν”ύΨ+Hγ³RMAJORZ
-CODE_SMELL
-jsquid:S1854"6Remove this useless assignment to local variable "y2".(π³¥Z8‰Ν”ύΨ+Hβ³RMAJORZ
-CODE_SMELL
-asquid:S1481"'Remove this unused "d1" local variable.(Υέσϊÿÿÿÿ8‰Ν”ύΨ+Hά³RMINORZ
-CODE_SMELL
-psquid:S1854"6Remove this useless assignment to local variable "y1".(‘’ζώÿÿÿÿ8‰Ν”ύΨ+Hε³RMAJORZ
-CODE_SMELL
-psquid:S1854"6Remove this useless assignment to local variable "d2".(Π’Ό›ÿÿÿÿÿ8‰Ν”ύΨ+Hδ³RMAJORZ
-CODE_SMELL
-asquid:S1481"'Remove this unused "d2" local variable.(Π’Ό›ÿÿÿÿÿ8‰Ν”ύΨ+Hί³RMINORZ
-CODE_SMELL
-asquid:S1481"'Remove this unused "m1" local variable.(­ψ­ÿÿÿÿÿ8‰Ν”ύΨ+Hέ³RMINORZ
-CODE_SMELL
-asquid:S1481"'Remove this unused "y1" local variable.(‘’ζώÿÿÿÿ8‰Ν”ύΨ+Hή³RMINORZ
-CODE_SMELL
-[squid:S1481"'Remove this unused "y2" local variable.(π³¥Z8‰Ν”ύΨ+Hα³RMINORZ
-CODE_SMELL
-psquid:S1854"6Remove this useless assignment to local variable "m1".(­ψ­ÿÿÿÿÿ8‰Ν”ύΨ+Hζ³RMAJORZ
-CODE_SMELL
-asquid:S1481"'Remove this unused "m2" local variable.(ΡΫ€όÿÿÿÿ8‰Ν”ύΨ+Hΰ³RMINORZ
-CODE_SMELL
-dsquid:S1135"2Complete the task associated to this TODO comment.(» ζÿÿÿÿÿHψ²RINFOZ
-CODE_SMELL
-l
-squid:S106"9Replace this use of System.out or System.err by a logger.(ό„κ!8’ά”ύΨ+Hπ³RMAJORZ
-CODE_SMELL

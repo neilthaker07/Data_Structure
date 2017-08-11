@@ -1,23 +1,23 @@
 
-rsquid:S1197"8Move the array designator from the variable to the type.(äŒ–ªÿÿÿÿÿ8ÕÚ“¡Ü+H²ºRMINORZ
+m
+squid:S106D"9Replace this use of System.out or System.err by a logger.(‚ª„¢8¦ Ä¢Ü+Hù¾RMAJORZ
+CODE_SMELL
+…squid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(‘æƒùÿÿÿÿ8Ó¢Æ¢Ü+Hú¾RMAJORZ
+CODE_SMELL
+Vsquid:S1170	"!Make this final field static too.(òôÜ8Ïá–¡Ü+Hû¾RMINORZ
+CODE_SMELL
+¢"squid:ClassVariableVisibilityCheck["SMake visited a static final constant or non-public and provide accessors if needed.(˜ÇÌ™8ÛÓ‰¢Ü+Hü¾RMINORZVULNERABILITY
+rsquid:S1197"8Move the array designator from the variable to the type.(äŒ–ªÿÿÿÿÿ8ÕÚ“¡Ü+Hý¾RMINORZ
 CODE_SMELL
 m
-squid:S106D"9Replace this use of System.out or System.err by a logger.(‚ª„¢8¦ Ä¢Ü+Hƒ½RMAJORZ
+squid:S106&"9Replace this use of System.out or System.err by a logger.(‚ª„¢8‰Ð¯¡Ü+Hþ¾RMAJORZ
 CODE_SMELL
-m
-squid:S106&"9Replace this use of System.out or System.err by a logger.(‚ª„¢8‰Ð¯¡Ü+HÍ»RMAJORZ
-CODE_SMELL
-…squid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(‘æƒùÿÿÿÿ8Ó¢Æ¢Ü+HŒ½RMAJORZ
-CODE_SMELL
-m
-squid:S106L"9Replace this use of System.out or System.err by a logger.(”­ÿ8ÕÃ³¢Ü+Hå¼RMAJORZ
-CODE_SMELL
-rsquid:S1197"8Move the array designator from the variable to the type.(§ê‡ûÿÿÿÿ8Ïá–¡Ü+H¶ºRMINORZ
-CODE_SMELL
-Vsquid:S1170	"!Make this final field static too.(òôÜ8Ïá–¡Ü+HººRMINORZ
-CODE_SMELL
+¥"squid:ClassVariableVisibilityCheck\"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ8¿Ž¡Ü+Hÿ¾RMINORZVULNERABILITY
 Šsquid:S1149
-"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(”ò»œúÿÿÿÿ8í†—¡Ü+HÁºRMAJORZ
+"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(”ò»œúÿÿÿÿ8í†—¡Ü+H€¿RMAJORZ
 CODE_SMELL
-¢"squid:ClassVariableVisibilityCheck["SMake visited a static final constant or non-public and provide accessors if needed.(˜ÇÌ™8ÛÓ‰¢Ü+HŽ¼RMINORZVULNERABILITY
-¥"squid:ClassVariableVisibilityCheck\"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ8¿Ž¡Ü+H®ºRMINORZVULNERABILITY
+m
+squid:S106L"9Replace this use of System.out or System.err by a logger.(”­ÿ8ÕÃ³¢Ü+H¿RMAJORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(§ê‡ûÿÿÿÿ8Ïá–¡Ü+H‚¿RMINORZ
+CODE_SMELL

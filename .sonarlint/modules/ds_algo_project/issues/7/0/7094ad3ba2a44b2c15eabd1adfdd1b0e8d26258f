@@ -1,3 +1,33 @@
 
-¹squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¶ ™’8‘‘ß¥Ü+HŠ¾RCRITICALZ
+m
+squid:S1060"9Replace this use of System.out or System.err by a logger.(÷ëş8ıöˆÎÜ+Hğ¾RMAJORZ
+CODE_SMELL
+r
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ëÎÃıÿÿÿÿ8ıöˆÎÜ+Hï¾RMAJORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(Êª·¥ÿÿÿÿÿ8ÓÄ°ÍÜ+H×¾RMINORZ
+CODE_SMELL
+m
+squid:S1061"9Replace this use of System.out or System.err by a logger.(†ƒ¯8ıöˆÎÜ+Hñ¾RMAJORZ
+CODE_SMELL
+Vsquid:S1170"!Make this final field static too.(òôÜ8ôÁ÷ÊÜ+HÌ¾RMINORZ
+CODE_SMELL
+squid:S2293L"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö•8¶ß´ÍÜ+HÚ¾RMINORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(äŒ–ªÿÿÿÿÿ8ôÁ÷ÊÜ+HÍ¾RMINORZ
+CODE_SMELL
+¢"squid:ClassVariableVisibilityChecki"SMake visited a static final constant or non-public and provide accessors if needed.(˜ÇÌ™8¯òçÊÜ+H•¾RMINORZVULNERABILITY
+squid:S3776M"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(´Ş—ÿÿÿÿÿ8Î¡ŸÎÜ+H÷¾RCRITICALZ
+CODE_SMELL
+¥"squid:ClassVariableVisibilityCheckj"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ8ôÁ÷ÊÜ+HÉ¾RMINORZVULNERABILITY
+m
+squid:S106-"9Replace this use of System.out or System.err by a logger.(Ç‰Ï8ôÁ÷ÊÜ+HÈ¾RMAJORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(§ê‡ûÿÿÿÿ8äÉíÊÜ+HÎ¾RMINORZ
+CODE_SMELL
+r
+squid:S106."9Replace this use of System.out or System.err by a logger.(¯ÈŠˆşÿÿÿÿ8ıöˆÎÜ+Hî¾RMAJORZ
+CODE_SMELL
+m
+squid:S106G"9Replace this use of System.out or System.err by a logger.(‚ª„¢8ıöˆÎÜ+Hò¾RMAJORZ
 CODE_SMELL

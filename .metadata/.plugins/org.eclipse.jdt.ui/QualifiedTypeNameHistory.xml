@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="recursionDp.TowersOfHanoi"/>
-<fullyQualifiedTypeName name="recursionDp.Tower"/>
-<fullyQualifiedTypeName name="recursionDp.PaintFill"/>
-<fullyQualifiedTypeName name="recursionDp.PaintFill.Color"/>
 <fullyQualifiedTypeName name="java.awt.Color"/>
 <fullyQualifiedTypeName name="recursionDp.PermuWithNoDups"/>
 <fullyQualifiedTypeName name="recursionDp.RemoveAdjacentDups"/>
 <fullyQualifiedTypeName name="recursionDp.RemoveDuplicatesFromArray"/>
 <fullyQualifiedTypeName name="recursionDp.Parens"/>
-<fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="narsimKar.Ch2No1"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -19,7 +14,6 @@
 <fullyQualifiedTypeName name="progs.StackOperations"/>
 <fullyQualifiedTypeName name="progs.Difference"/>
 <fullyQualifiedTypeName name="progs.Arrays2d"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="progs.LevelOrder"/>
 <fullyQualifiedTypeName name="java.lang.LinkageError"/>
@@ -43,7 +37,6 @@
 <fullyQualifiedTypeName name="sortingSearching.MaxHeap"/>
 <fullyQualifiedTypeName name="hashing.RemoveDups"/>
 <fullyQualifiedTypeName name="java.lang.Character"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="hashing.HashingImpl.MyHashTable"/>
 <fullyQualifiedTypeName name="hashing.MyHashTableNode"/>
 <fullyQualifiedTypeName name="hashing.MyHashNode"/>
@@ -52,12 +45,19 @@
 <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
 <fullyQualifiedTypeName name="java.util.Hashtable"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="graph.UndirectedGraph"/>
-<fullyQualifiedTypeName name="java.util.Stack"/>
 <fullyQualifiedTypeName name="graph.Vertex"/>
 <fullyQualifiedTypeName name="graph.DFS"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="graph.Dijkstra"/>
+<fullyQualifiedTypeName name="javax.print.attribute.HashAttributeSet"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
