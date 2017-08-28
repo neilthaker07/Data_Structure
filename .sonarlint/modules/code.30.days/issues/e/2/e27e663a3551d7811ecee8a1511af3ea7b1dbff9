@@ -1,0 +1,32 @@
+
+msquid:S1197"8Move the array designator from the variable to the type.(„§Ξϊ8ΗΑΜτά+HΥΑRMINORZ
+CODE_SMELL
+dsquid:S10668"/Merge this if statement with the enclosing one.(ΐΛ„8µέυά+H΄ΒRMAJORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(νκ“ϊÿÿÿÿ8ΗΑΜτά+HΤΑRMINORZ
+CODE_SMELL
+isquid:S1066F"/Merge this if statement with the enclosing one.(›°Σφωÿÿÿÿ8µέυά+H¶ΒRMAJORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ις€³8Β€στά+HκΑRMINORZ
+CODE_SMELL
+dsquid:S1135	"2Complete the task associated to this TODO comment.(» ζÿÿÿÿÿHΟΑRINFOZ
+CODE_SMELL
+squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Ηµν‘8¨¶„υά+H§ΒRCRITICALZ
+CODE_SMELL
+squid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ƒªÒγώÿÿÿÿ8Β€στά+HςΑRMAJORZ
+CODE_SMELL
+squid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¶°π—ώÿÿÿÿ8Β€στά+HτΑRMAJORZ
+CODE_SMELL
+dsquid:S1066?"/Merge this if statement with the enclosing one.(‡‹α8µέυά+HµΒRMAJORZ
+CODE_SMELL
+rsquid:S1197"8Move the array designator from the variable to the type.(Ηÿ­Κϊÿÿÿÿ8ΗΑΜτά+HΣΑRMINORZ
+CODE_SMELL
+m
+squid:S106M"9Replace this use of System.out or System.err by a logger.(Τ±‚8Ϋλυά+H®ΒRMAJORZ
+CODE_SMELL
+…squid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ις€³8Β€στά+HσΑRMAJORZ
+CODE_SMELL
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶°π—ώÿÿÿÿ8Β€στά+HλΑRMINORZ
+CODE_SMELL
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒªÒγώÿÿÿÿ8Β€στά+HιΑRMINORZ
+CODE_SMELL

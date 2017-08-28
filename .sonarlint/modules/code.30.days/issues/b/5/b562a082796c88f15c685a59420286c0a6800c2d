@@ -1,0 +1,25 @@
+
+msquid:S1854&"8Remove this useless assignment to local variable "prev".(Œ«çž8‡Ä±¿Þ+HñÆRMAJORZ
+CODE_SMELL
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHòÆRINFOZ
+CODE_SMELL
+m
+squid:S106E"9Replace this use of System.out or System.err by a logger.(‘„ô³8åúž¿Þ+HóÆRMAJORZ
+CODE_SMELL
+€squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(à”»š8ØÇ¶¿Þ+HôÆRMAJORZ
+CODE_SMELL
+ysquid:S1226;"?Introduce a new variable instead of reusing the parameter "l1".(‹­õäýÿÿÿÿ8Ñéá¾Þ+HõÆRMINORZ
+CODE_SMELL
+squid:S1488T"ZImmediately return this expression instead of assigning it to the temporary variable "t2".(´ºØ©8ñ¯ÔÀÞ+HöÆRMINORZ
+CODE_SMELL
+ysquid:S1226?"?Introduce a new variable instead of reusing the parameter "l2".(Ñüàãÿÿÿÿÿ8¦‹‘¿Þ+H÷ÆRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(çÕ²Z8¶•ß¿Þ+HøÆRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚ƒˆe8¶•ß¿Þ+HùÆRMAJORZ
+CODE_SMELL
+…squid:CommentedOutCodeLineH"<This block of commented-out lines of code should be removed.( ÇŠúÿÿÿÿ8Òž¢¿Þ+HúÆRMAJORZ
+CODE_SMELL
+ssquid:S2259*"E"NullPointerException" will be thrown when invoking method "getT1()".(ÒçËÍ8™ÄÇÀÞ+HûÆRMAJORZBUG
+vsquid:S1226O"AIntroduce a new variable instead of reusing the parameter "prev".(Œ«çž8®ö¼ÀÞ+HüÆRMINORZ
+CODE_SMELL

@@ -1,0 +1,14 @@
+
+©squid:S1319"oThe type of the "node" object should be an interface such as "List" rather than the implementation "ArrayList".(Ñ±ßîøÿÿÿÿ8ÃœŠþá+H¥ÈRMINORZ
+CODE_SMELL
+[squid:S1481!"&Remove this unused "p" local variable.(ÐŽ•Ï8ÃœŠþá+H¦ÈRMINORZ
+CODE_SMELL
+ssquid:S1155/">Use isEmpty() to check whether the collection is empty or not.(³Ó˜ž8ÃœŠþá+HªÈRMINORZ
+CODE_SMELL
+“squid:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(€³Ü»ÿÿÿÿÿ8€Ä”þá+H§ÈRMINORZ
+CODE_SMELL
+Žsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(êõ˜å8ÃœŠþá+H©ÈRMINORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(²œŽ”8‘Óéýá+H¨ÈRMAJORZ
+CODE_SMELL

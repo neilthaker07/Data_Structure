@@ -1,0 +1,20 @@
+
+gsquid:S11993"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ïªÅöÜ+HåÆRMINORZ
+CODE_SMELL
+Šsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Å¸§ùûÿÿÿÿ8ğœúõÜ+HæÆRMAJORZ
+CODE_SMELL
+Šsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".( °Ïÿüÿÿÿÿ8ğœúõÜ+HçÆRMAJORZ
+CODE_SMELL
+r
+squid:S1068"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ8‰Ê‚öÜ+HèÆRMAJORZ
+CODE_SMELL
+dsquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHéÆRINFOZ
+CODE_SMELL
+Šsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8•ÁöÜ+HêÆRCRITICALZ
+CODE_SMELL
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").( °Ïÿüÿÿÿÿ8ğœúõÜ+HëÆRMINORZ
+CODE_SMELL
+…squid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(°Îšçúÿÿÿÿ8ïªÅöÜ+HìÆRMAJORZ
+CODE_SMELL
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Å¸§ùûÿÿÿÿ8ğœúõÜ+HíÆRMINORZ
+CODE_SMELL

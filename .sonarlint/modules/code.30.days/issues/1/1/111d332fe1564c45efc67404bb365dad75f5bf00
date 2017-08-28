@@ -1,0 +1,17 @@
+
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Á°«ß8İ‹«óÜ+HıÀRMINORZ
+CODE_SMELL
+„squid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(›¯’g8Òì›óÜ+HÈÁRMAJORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒÔ‘8İ‹«óÜ+HşÀRMINORZ
+CODE_SMELL
+dsquid:S1135
+"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH¹ÀRINFOZ
+CODE_SMELL
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8¬Ö•óÜ+HÀÀRMAJORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(›¯’g8ãÃ›óÜ+HÉÁRMINORZ
+CODE_SMELL
+squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(†Ìº‘şÿÿÿÿ8áÂ³ôÜ+HÍÁRCRITICALZ
+CODE_SMELL

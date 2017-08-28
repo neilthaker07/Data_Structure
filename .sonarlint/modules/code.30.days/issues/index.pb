@@ -47,3 +47,23 @@ D
 src/progs/Loops.java,9/2/92c245c2d4b94ff0433c20dfa76fb7c7cc530d44
 I
 src/progs/MaxElement.java,f/a/faebcb8c696618af9419c1cb3465661691563ad9
+N
+src/progs/BalancedBracket.java,1/1/111d332fe1564c45efc67404bb365dad75f5bf00
+J
+src/progs/EqualStacks.java,e/2/e27e663a3551d7811ecee8a1511af3ea7b1dbff9
+L
+src/progs/GameOf2Stacks.java,2/a/2a89f0791aac26bd8690d46a112d57d3f6cd365f
+O
+src/progs/QueueUsingStacks.java,b/1/b1eb02407c3c7f187346a148596489d11affcb85
+E
+src/progs/TwoSum.java,d/b/db2fc19147b684e81f7f11d19015946893eca37b
+I
+src/progs/AddTwoNums.java,b/8/b80c32140f14566268985e99fc83f8e926d671a0
+H
+src/progs/TwoNumAdd.java,b/5/b562a082796c88f15c685a59420286c0a6800c2d
+J
+src/progs/MaxSubArray.java,7/a/7a5181b647045ea5b1e83cb65823c6ab9735f501
+I
+src/progs/MaxDepthBT.java,3/f/3f39203bf50790022a743c9c91fe9efdcd8388f4
+G
+src/progs/SymmTree.java,5/1/517118e908f916087e69cec48c5c39e5e797b5dc

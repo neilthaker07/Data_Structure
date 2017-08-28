@@ -1,29 +1,29 @@
 
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(š·ƒ$8”š„ˆ×+HÛ¦RMINORZ
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8§–ˆ×+H¦ÃRMAJORZ
 CODE_SMELL
-†squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(â¢ıœHÍ¦RMINORZ
+dsquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH§ÃRINFOZ
 CODE_SMELL
 m
-squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8°±ˆ×+Hò¦RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8°±ˆ×+H¨ÃRMAJORZ
 CODE_SMELL
 m
-squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8ğØŸˆ×+Hø¦RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8ğØŸˆ×+H©ÃRMAJORZ
 CODE_SMELL
-dsquid:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÌ¦RINFOZ
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(š·ƒ$8”š„ˆ×+HªÃRMINORZ
 CODE_SMELL
-m
-squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8ğØŸˆ×+H÷¦RMAJORZ
-CODE_SMELL
-m
-squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8°±ˆ×+Hñ¦RMAJORZ
-CODE_SMELL
-“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(üù‚ãşÿÿÿÿ8”š„ˆ×+HÚ¦RMINORZ
-CODE_SMELL
-ssquid:S1155$">Use isEmpty() to check whether the collection is empty or not.(æÒÓ›8Äñ•ˆ×+Hê¦RMINORZ
+“squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(üù‚ãşÿÿÿÿ8”š„ˆ×+H«ÃRMINORZ
 CODE_SMELL
 m
-squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8§–ˆ×+Hô¦RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8ğØŸˆ×+H¬ÃRMAJORZ
+CODE_SMELL
+ssquid:S1155$">Use isEmpty() to check whether the collection is empty or not.(æÒÓ›8Äñ•ˆ×+H­ÃRMINORZ
+CODE_SMELL
+†squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(â¢ıœH®ÃRMINORZ
 CODE_SMELL
 m
-squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8ğØŸˆ×+Hö¦RMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8ğØŸˆ×+H¯ÃRMAJORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(€©½ğ8°±ˆ×+H°ÃRMAJORZ
 CODE_SMELL
