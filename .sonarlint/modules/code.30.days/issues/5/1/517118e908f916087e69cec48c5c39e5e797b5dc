@@ -1,15 +1,15 @@
 
-msquid:S1197"8Move the array designator from the variable to the type.(×Êúï8¶¦İˆâ+HåÈRMINORZ
+squid:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö°øü8ƒÉÈ‡â+HéÈRMINORZ
 CODE_SMELL
-¤squid:S1319%"oThe type of the "node" object should be an interface such as "List" rather than the implementation "ArrayList".(Ö‹ª¶8ê¼‡â+HÓÈRMINORZ
-CODE_SMELL
-r
-squid:S106"9Replace this use of System.out or System.err by a logger.(”È‡êüÿÿÿÿ8åÁÜˆâ+HâÈRMAJORZ
-CODE_SMELL
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô­¤ü8´»‡â+HÒÈRMINORZ
+msquid:S1197"8Move the array designator from the variable to the type.(×Êúï8¶¦İˆâ+HêÈRMINORZ
 CODE_SMELL
 r
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾áôçıÿÿÿÿ8ö›¬‡â+H³ÈRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾áôçıÿÿÿÿ8ö›¬‡â+HëÈRMAJORZ
 CODE_SMELL
-squid:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö°øü8ƒÉÈ‡â+H×ÈRMINORZ
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(”È‡êüÿÿÿÿ8åÁÜˆâ+HìÈRMAJORZ
+CODE_SMELL
+¤squid:S1319%"oThe type of the "node" object should be an interface such as "List" rather than the implementation "ArrayList".(Ö‹ª¶8ê¼‡â+HíÈRMINORZ
+CODE_SMELL
+squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô­¤ü8´»‡â+HîÈRMINORZ
 CODE_SMELL
