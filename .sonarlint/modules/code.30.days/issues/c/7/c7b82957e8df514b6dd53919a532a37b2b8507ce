@@ -1,0 +1,9 @@
+
+rsquid:UnusedPrivateMethod"*Remove this unused private "test2" method.(˜àæûùÿÿÿÿ8¨¹êè+H¹ËRMAJORZ
+CODE_SMELL
+tsquid:UnusedPrivateMethod",Remove this unused private "testing" method.(¯¾†÷øÿÿÿÿ8Ï ³è+H«ÊRMAJORZ
+CODE_SMELL
+_squid:S1068"%Remove this unused "a" private field.(Ò°Ê×üÿÿÿÿ8òœ²è+H¨ÊRMAJORZ
+CODE_SMELL
+ssquid:S3400"9Remove this method and declare a constant for this value.(ŠÏÃÿøÿÿÿÿ8Ï ³è+H¬ÊRMINORZ
+CODE_SMELL

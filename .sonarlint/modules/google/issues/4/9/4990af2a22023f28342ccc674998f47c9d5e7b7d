@@ -1,25 +1,25 @@
 
-Xsquid:S2201U"*The return value of "concat" must be used.(ã¤şä8êø‹–æ+HƒÊRMAJORZBUG
-rsquid:S11975"8Move the array designator from the variable to the type.(ÓÃæêşÿÿÿÿ8¾ûÒ•æ+HÀÉRMINORZ
+Œsquid:S00117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÿœ°ûÿÿÿÿ8˜‰õ•æ+H™ÊRMINORZ
 CODE_SMELL
-Œsquid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú âÚúÿÿÿÿ8˜‰õ•æ+HéÉRMINORZ
+rsquid:S11975"8Move the array designator from the variable to the type.(ÓÃæêşÿÿÿÿ8¾ûÒ•æ+HšÊRMINORZ
 CODE_SMELL
-dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHğÈRINFOZ
+Œsquid:S00117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô›—Úûÿÿÿÿ8‹£û”æ+H›ÊRMINORZ
 CODE_SMELL
-rsquid:S11974"8Move the array designator from the variable to the type.(òâ³õûÿÿÿÿ8ì¿Ñ•æ+H¶ÉRMINORZ
+dsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHœÊRINFOZ
+CODE_SMELL
+Zsquid:S2129H" Remove this "String" constructor(ú âÚúÿÿÿÿ8˜‰õ•æ+HÊRMAJORZ
+CODE_SMELL
+Zsquid:S2129I" Remove this "String" constructor(¶ÿœ°ûÿÿÿÿ8˜‰õ•æ+HÊRMAJORZ
 CODE_SMELL
 squid:S3776
-"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(Ô›—Úûÿÿÿÿ8ÈÕª•æ+H¡ÉRCRITICALZ
+"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(Ô›—Úûÿÿÿÿ8ÈÕª•æ+HŸÊRCRITICALZ
 CODE_SMELL
-Zsquid:S2129I" Remove this "String" constructor(¶ÿœ°ûÿÿÿÿ8˜‰õ•æ+HìÉRMAJORZ
+rsquid:S11974"8Move the array designator from the variable to the type.(òâ³õûÿÿÿÿ8ì¿Ñ•æ+H ÊRMINORZ
 CODE_SMELL
-Zsquid:S2129H" Remove this "String" constructor(ú âÚúÿÿÿÿ8˜‰õ•æ+HëÉRMAJORZ
-CODE_SMELL
-Œsquid:S00117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÿœ°ûÿÿÿÿ8˜‰õ•æ+HêÉRMINORZ
+Œsquid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú âÚúÿÿÿÿ8˜‰õ•æ+H¡ÊRMINORZ
 CODE_SMELL
 Œsquid:S00117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô›—Úûÿÿÿÿ8‹£û”æ+HóÈRMINORZ
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô›—Úûÿÿÿÿ8‹£û”æ+H¢ÊRMINORZ
 CODE_SMELL
-Œsquid:S00117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô›—Úûÿÿÿÿ8‹£û”æ+HôÈRMINORZ
-CODE_SMELL
+Xsquid:S2201U"*The return value of "concat" must be used.(ã¤şä8êø‹–æ+H£ÊRMAJORZBUG

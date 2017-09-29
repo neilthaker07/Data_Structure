@@ -1,0 +1,39 @@
+
+ksquid:S1135C"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Õ®Çè+HĞÊRINFOZ
+CODE_SMELL
+`squid:S1148D"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Šüåè+HšËRMINORZVULNERABILITY
+rsquid:S1197
+"8Move the array designator from the variable to the type.(Éš½úÿÿÿÿ8ô·µè+H®ÊRMINORZ
+CODE_SMELL
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÃÜ±ÿÿÿÿÿ8É‰Èè+HÙÊRMAJORZ
+CODE_SMELL
+ksquid:S1135:"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Õ®Çè+HÏÊRINFOZ
+CODE_SMELL
+m
+squid:S1066"9Replace this use of System.out or System.err by a logger.(‘ß×¾8è+H¡ÌRMAJORZ
+CODE_SMELL
+ksquid:S1135="2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8íÃè+HÃÊRINFOZ
+CODE_SMELL
+~squid:S2147<"DCombine this catch with the one at line 57, which has the same body.(¥¨›ıÿÿÿÿ8Õ®Çè+HÑÊRMINORZ
+CODE_SMELL
+ksquid:S1135@"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¦Çáè+H‹ËRINFOZ
+CODE_SMELL
+`squid:S1148;"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Õ®Çè+HÓÊRMINORZVULNERABILITY
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘ùˆ“8İ“¸è+H·ÊRMAJORZ
+CODE_SMELL
+ysquid:S2147E"DCombine this catch with the one at line 57, which has the same body.(åşáÿ8Šüåè+H™ËRMINORZ
+CODE_SMELL
+`squid:S1148>"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¦Çáè+HËRMINORZVULNERABILITY
+`squid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8íÃè+HÄÊRMINORZVULNERABILITY
+ysquid:S2147?"DCombine this catch with the one at line 57, which has the same body.(Å¡ß8Õ®Çè+HÒÊRMINORZ
+CODE_SMELL
+ksquid:S1135F"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Šüåè+H˜ËRINFOZ
+CODE_SMELL
+`squid:S1148G"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Õ®Çè+HÔÊRMINORZVULNERABILITY
+~squid:S2147B"DCombine this catch with the one at line 57, which has the same body.(¼¯•¶ùÿÿÿÿ8¦Çáè+HŒËRMINORZ
+CODE_SMELL
+r
+squid:S106'"9Replace this use of System.out or System.err by a logger.(­‘Æ¼üÿÿÿÿ8Šüåè+H—ËRMAJORZ
+CODE_SMELL
