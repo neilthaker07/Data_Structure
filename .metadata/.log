@@ -12822,3 +12822,34 @@ Binding(CTRL+F4,
 
 !ENTRY org.eclipse.ui.browser 2 0 2017-09-14 12:29:41.210
 !MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+!SESSION 2017-11-03 22:09:14.371 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2017-11-03 22:09:52.959
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-03 22:09:52.960
+!MESSAGE A conflict occurred for CTRL+F4:
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68090076,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F4,
+	ParameterizedCommand(Command(org.scala.tools.eclipse.search.commands.OpenTypeHierarchy,Open Type Hierarchy,
+		Open Type Hierarchy,
+		Category(org.scala.tools.eclipse.search.commands,Search - Scala,Search - Scala,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ffa596b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.browser 2 0 2017-11-03 22:10:05.572
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
