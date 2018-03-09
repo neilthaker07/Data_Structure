@@ -71,3 +71,7 @@ B
 src/graph/BFS.java,a/2/a264cdfa043857b2abe2e9715eabb0817eb3df9d
 G
 src/graph/Dijkstra.java,7/0/7094ad3ba2a44b2c15eabd1adfdd1b0e8d26258f
+G
+src/innerClasses/A.java,b/d/bde041bbf09321385e2f556d736f58c1f5989449
+N
+src/innerClasses/My_Class.java,2/2/221f112ea81db7857605d8655aefe78d205a8f17
