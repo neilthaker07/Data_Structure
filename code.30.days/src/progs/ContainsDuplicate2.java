@@ -7,87 +7,88 @@ public class ContainsDuplicate2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int a[] = new int[]{5};
 
-		//System.out.println(containsNearbyDuplicate(a, 1));
-		System.out.println(findMaxAverage(a, 1));
+		int a[] = new int[] { 4, 2, 3 };
+
+		// System.out.println(containsNearbyDuplicate(a, 1));
+		// System.out.println(findMaxAverage(a, 1));
+		System.out.println(checkPossibility(a));
 	}
-	
-	public static double findMaxAverage(int[] nums, int k) {
-	    
-			int l = nums.length;
-			int p1=0;
-			int p2=0;
-			double avg = 0;
-			boolean f = false;
-			double sum = 0;
-			while(p2<l)
-			{
-				if(p2+1 < p1+k)
-				{
-					sum+=nums[p2];
-				}
+
+	public static boolean checkPossibility(int[] nums) {
+
+		int n = nums.length, count = 0;
+
+		for (int i = 0; i + 1 < n; i++) {
+			if (nums[i] > nums[i + 1]) {
+				count++;
+				if (i > 0 && nums[i + 1] < nums[i - 1])
+					nums[i + 1] = nums[i];
 				else
-				{
-					sum += nums[p2];
-					if(!f)
-					{
-						avg = sum / k;
-						f = true;
-					}
-					else
-					{
-						avg = (sum/k) > avg ? (sum/k) : avg;
-					}
-					
-					sum = sum - nums[p1];
-					p1++;
-					//sum = sum + nums[p2];
-				}
-				p2++;
+					nums[i] = nums[i + 1];
 			}
-			
-			return avg;
-	    }
-	
-	public static boolean containsNearbyDuplicate(int[] nums, int k) {
-    
+		}
+
+		return count <= 1;
+
+	}
+
+	public static double findMaxAverage(int[] nums, int k) {
+
 		int l = nums.length;
-		
+		int p1 = 0;
+		int p2 = 0;
+		double avg = 0;
+		boolean f = false;
+		double sum = 0;
+		while (p2 < l) {
+			if (p2 + 1 < p1 + k) {
+				sum += nums[p2];
+			} else {
+				sum += nums[p2];
+				if (!f) {
+					avg = sum / k;
+					f = true;
+				} else {
+					avg = (sum / k) > avg ? (sum / k) : avg;
+				}
+
+				sum = sum - nums[p1];
+				p1++;
+				// sum = sum + nums[p2];
+			}
+			p2++;
+		}
+
+		return avg;
+	}
+
+	public static boolean containsNearbyDuplicate(int[] nums, int k) {
+
+		int l = nums.length;
+
 		Set<Integer> set = new HashSet();
-		if(l<k)
-		{
-			for(int i=0;i<l;i++)
-			{
-				if(set.contains(nums[i]))
-				{
+		if (l < k) {
+			for (int i = 0; i < l; i++) {
+				if (set.contains(nums[i])) {
 					return true;
 				}
 				set.add(nums[i]);
 			}
-		}
-		else
-		{
-			int p1=0;
-			int p2=0;
-			while(p2<l)
-			{
-				if(p2 <= p1+k)
-				{
-					if(set.contains(nums[p2]))
-					{
+		} else {
+			int p1 = 0;
+			int p2 = 0;
+			while (p2 < l) {
+				if (p2 <= p1 + k) {
+					if (set.contains(nums[p2])) {
 						return true;
 					}
 					set.add(nums[p2]);
-				}
-				else
-				{
+				} else {
 					set.remove(nums[p1]);
 					p1++;
-					
-					if(set.contains(nums[p2]))
-					{
+
+					if (set.contains(nums[p2])) {
 						return true;
 					}
 					set.add(nums[p2]);
@@ -95,8 +96,8 @@ public class ContainsDuplicate2 {
 				p2++;
 			}
 		}
-		
+
 		return false;
-    }
+	}
 
 }
