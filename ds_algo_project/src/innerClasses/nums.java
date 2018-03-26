@@ -17,7 +17,7 @@ class B {
 	   }
 	}
 	   
-	public class A {
+	public class nums {
 
 	   public static void main(String args[]) {
 	      // Instantiating the outer class 

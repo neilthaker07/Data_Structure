@@ -1,17 +1,17 @@
-package progs;
+package guidewireInterview;
 
 import java.util.*;
 
 public class GuidewireProg3 {
 
 	public static void main(String[] args) {
-		System.out.println(findMaxTime(0,0,0,0));
-		System.out.println(maxTime(0,0,0,0));
+		//System.out.println(findMaxTime(0,1,0,0));
+		System.out.println(maxTime(1,2,4,4));
 	}
 	
 	public static String maxTime(int a, int b, int c, int d)
 	{
-		 if(a==0 && b ==0 && c==0 && d==0)
+		if(a==0 && b ==0 && c==0 && d==0)
 	    {
 	       return "00:00" ;
 	    }
@@ -37,7 +37,7 @@ public class GuidewireProg3 {
 			
 		}
 		
-		if(maxTime ==0)
+		if(maxTime == 0)
 		{
 			return "NOT POSSIBLE";
 		}
@@ -122,6 +122,7 @@ public class GuidewireProg3 {
 				output.append('0');
 			}
 
+			carray = s.toCharArray(); // Added line
 			char c = carray[carray.length - 1];
 			output.append(c);
 			if(s.indexOf(c) > -1)

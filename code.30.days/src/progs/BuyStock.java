@@ -3,23 +3,10 @@ package progs;
 public class BuyStock {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		
 	}
 	
-	public int maxProfitPart2(int[] prices) {
-
-		int maxprofit = 0;
-		for (int i = 1; i < prices.length; i++) {
-			if (prices[i] > prices[i - 1])
-				maxprofit += prices[i] - prices[i - 1];
-		}
-		return maxprofit;
-	}
-	
+	// One time buy, sell
 	public int maxProfitPart1(int[] prices) {
-
 		int minprice = Integer.MAX_VALUE;
 		int maxprofit = 0;
 		for (int i = 0; i < prices.length; i++) {
@@ -30,11 +17,21 @@ public class BuyStock {
 		}
 
 		return maxprofit;
-
 	}
 	
+	// multiple time buy,sell
+	public int maxProfitPart2(int[] prices) {
+
+		int maxprofit = 0;
+		for (int i = 1; i < prices.length; i++) {
+			if (prices[i] > prices[i - 1])
+				maxprofit += prices[i] - prices[i - 1];
+		}
+		return maxprofit;
+	}
 	
 	// DP
+	// 
 	public int maxProfitPart3(int[] prices) {
 		
 		int hold1 = Integer.MIN_VALUE, hold2 = Integer.MIN_VALUE;
@@ -52,6 +49,7 @@ public class BuyStock {
 	}
 	
 	// DP
+	// 
 	public int maxProfitTranPart4(int[] prices, int fee) {
 		int cash = 0, hold = -prices[0];
 		for (int i = 1; i < prices.length; i++) {
