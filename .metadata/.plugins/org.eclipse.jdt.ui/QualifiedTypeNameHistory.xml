@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="hashing.HashingImpl.MyHashTable"/>
 <fullyQualifiedTypeName name="hashing.MyHashTableNode"/>
 <fullyQualifiedTypeName name="hashing.MyHashNode"/>
 <fullyQualifiedTypeName name="hashing.MyHashTable"/>
@@ -45,14 +44,9 @@
 <fullyQualifiedTypeName name="progs.ThirdMax"/>
 <fullyQualifiedTypeName name="progs.ListNode"/>
 <fullyQualifiedTypeName name="progs.ArrayPartition"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="progs.TreeNode1"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-<fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="progs.QueueUsingStack"/>
 <fullyQualifiedTypeName name="progs.StackOperations"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
 <fullyQualifiedTypeName name="java.util.Deque"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="treesGraphs.TreeTest"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

@@ -6,7 +6,7 @@ public class GuidewireProg3 {
 
 	public static void main(String[] args) {
 		//System.out.println(findMaxTime(0,1,0,0));
-		System.out.println(maxTime(1,2,4,4));
+		System.out.println(maxTime(1,2,5,6));
 	}
 	
 	public static String maxTime(int a, int b, int c, int d)
