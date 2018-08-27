@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class BFS {
 
-	private Vertex vertexList[];
+	private Vertex4 vertexList[];
 	private boolean adjMatrix[][];
 	private final int maxVertex = 10;
 	private Queue<Integer> queue;
@@ -13,14 +13,14 @@ public class BFS {
 
 	public BFS()
 	{
-		vertexList = new Vertex[maxVertex];
+		vertexList = new Vertex4[maxVertex];
 		adjMatrix = new boolean[maxVertex][maxVertex];
 		queue = new LinkedList<Integer>();
 	}
 	
 	public void addVertex(int value)
 	{
-		vertexList[vertexCount] = new Vertex(value);
+		vertexList[vertexCount] = new Vertex4(value);
 		vertexCount++;
 	}
 	

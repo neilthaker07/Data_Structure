@@ -10,14 +10,14 @@ public class Dijkstra {
 		d.tran();
 	}
 	
-	private Vertex vertexList[];
+	private Vertex4 vertexList[];
 	private boolean adjMatrix[][];
 	private int weights[][];
 	private final int maxVertex = 10;
 	private int vertexCount=0;
 	
 	public Dijkstra() {
-		vertexList = new Vertex[maxVertex];
+		vertexList = new Vertex4[maxVertex];
 		adjMatrix = new boolean[maxVertex][maxVertex];
 		weights = new int[maxVertex][maxVertex];
 	}
@@ -38,7 +38,7 @@ public class Dijkstra {
 		addEdge(3, 2,2);
 		addEdge(4, 5,4);
 		
-		Vertex start = vertexList[1]; 
+		Vertex4 start = vertexList[1]; 
 		
 		traverse(start.value);
 		
@@ -51,7 +51,7 @@ public class Dijkstra {
 	
 	public void addVertex(int value)
 	{
-		vertexList[vertexCount] = new Vertex(value);
+		vertexList[vertexCount] = new Vertex4(value);
 		outputMap.put(value, 0);
 		vertexCount++;
 	}

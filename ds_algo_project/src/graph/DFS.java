@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class DFS {
 
-	private Vertex vertexList[];
+	private Vertex4 vertexList[];
 	private boolean adjMatrix[][];
 	private final int maxVertex = 10;
 	private Stack stack;
@@ -12,14 +12,14 @@ public class DFS {
 
 	public DFS()
 	{
-		vertexList = new Vertex[maxVertex];
+		vertexList = new Vertex4[maxVertex];
 		adjMatrix = new boolean[maxVertex][maxVertex];
 		stack = new Stack();
 	}
 	
 	public void addVertex(int value)
 	{
-		vertexList[vertexCount] = new Vertex(value);
+		vertexList[vertexCount] = new Vertex4(value);
 		vertexCount++;
 	}
 	
@@ -86,11 +86,11 @@ public class DFS {
 	}
 }
 
-class Vertex
+class Vertex4
 {
 	public boolean visited;
 	public int value;
-	public Vertex(int value)
+	public Vertex4(int value)
 	{
 		this.value = value;
 	}
