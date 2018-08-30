@@ -6,7 +6,7 @@ public class Solution2 {
 		// TODO Auto-generated method stub
 		//System.out.println(remAnagram("abb", "bbc"));
 		
-		System.out.println(countManipulations("lkt", "ikl"));
+		System.out.println(countManipulations("a", "a"));
 	}
 	
 	
@@ -20,15 +20,21 @@ public class Solution2 {
         // iterate though the first String and update 
         // count
         for (int i = 0; i < s1.length(); i++) 
-            char_count[s1.charAt(i) - 'a']++;        
+            char_count[s1.charAt(i) - 'a']++;
  
         // iterate through the second string
         // update char_count.
         // if character is not found in char_count
         // then increase count
-        for (int i = 0; i < s2.length(); i++) 
-            if (char_count[s2.charAt(i) - 'a']-- <= 0)
-                count++;
+        for (int i = 0; i < s2.length(); i++)
+        {
+        	if (char_count[s2.charAt(i) - 'a'] <= 0)
+            {
+            	count++;
+            }
+        	char_count[s2.charAt(i) - 'a']--;
+        }
+            
          
         return count;
     }

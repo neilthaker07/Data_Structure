@@ -8,6 +8,7 @@ public class Deadlock {
 		// t1 tries to lock resource1 then resource2
 		Thread t1 = new Thread() {
 			public void run() {
+				
 				synchronized (resource1) {
 					System.out.println("Thread 1: locked resource 1");
 
