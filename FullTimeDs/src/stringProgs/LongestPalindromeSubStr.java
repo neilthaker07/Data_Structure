@@ -6,6 +6,8 @@ import java.util.Set;
 
 public class LongestPalindromeSubStr {
 	
+	
+	// longest substring without repeating characters
 	public static int lengthOfLongestSubstring(String s) {
         int n = s.length();
         Set<Character> set = new HashSet<>();
@@ -13,7 +15,8 @@ public class LongestPalindromeSubStr {
         while (i < n && j < n) {
         	
             // try to extend the range [i, j]
-            if (!set.contains(s.charAt(j))){
+            if (!set.contains(s.charAt(j)))
+            {
                 set.add(s.charAt(j++));
                 ans = Math.max(ans, j - i);
             }

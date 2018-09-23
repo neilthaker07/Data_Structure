@@ -7,7 +7,7 @@ public class DegreeOfArray {
 
 	public static void main(String[] args) {
 		
-		int[] nums = new int[]{1,2,3,3,2,2,3,3,1};
+		int[] nums = new int[]{1,4,2,2,3,6,4,8,4};
 
 		Map<Integer, Integer> pos = new HashMap();
 		Map<Integer, Boolean> bool = new HashMap();
@@ -24,7 +24,11 @@ public class DegreeOfArray {
 			}
 			else
 			{
-				int val = vals.get(nums[i]) + i - pos.get(nums[i]) + 1;
+				int val = vals.get(nums[i]) + i - pos.get(nums[i]);
+				if(!bool.get(nums[i]))
+				{
+					val++;
+				}
 				
 				max = max < val ? val : max;
 				
