@@ -25,7 +25,7 @@ public class MinStack {
 		// Push min with element when min changes.
 		if(x<=min)
 		{
-			stack.push(min);
+			//stack.push();
 			min = x;
 		}
 		stack.push(x);
