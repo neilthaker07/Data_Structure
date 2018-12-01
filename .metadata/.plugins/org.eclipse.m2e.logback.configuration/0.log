@@ -49,3 +49,81 @@
 2018-10-22 15:54:34,222 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2018-10-29 21:28:23,713 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2018-11-03 14:45:55,934 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-11-09 11:15:59,849 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-11-17 13:50:04,846 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-11-18 19:25:27,867 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/maven-metadata.xml
+2018-11-18 19:25:28,044 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/maven-metadata.xml
+2018-11-18 19:25:28,084 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2018-11-18 19:25:28,120 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2018-11-18 19:25:55,982 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.pom
+2018-11-18 19:25:56,013 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.pom
+2018-11-18 19:25:56,128 [pool-2-thread-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file:///home/neil/.m2/repository/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2018-11-18 19:25:56,253 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/pom.xml
+2018-11-18 19:25:57,736 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.elementum.dept:interview:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/pom.xml.
+2018-11-18 19:25:59,852 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /interview/src/main/java
+2018-11-18 19:25:59,854 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /interview/src/main/resources
+2018-11-18 19:25:59,854 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /interview/src/test/java
+2018-11-18 19:26:00,109 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.elementum.dept:interview:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/pom.xml.
+2018-11-18 19:26:01,602 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2018-11-18 19:26:01,883 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.pom
+2018-11-18 19:26:02,011 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.pom
+2018-11-18 19:26:02,049 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.7/project-6.1.7.pom
+2018-11-18 19:26:02,085 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.7/project-6.1.7.pom
+2018-11-18 19:26:02,103 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.jar
+2018-11-18 19:26:02,154 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.jar
+2018-11-18 19:26:03,701 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.elementum.dept:interview:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/pom.xml.
+2018-11-18 19:26:04,367 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:26:04,374 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-11-18 19:26:04,379 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:26:04,379 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/src/test/resources
+2018-11-18 19:26:53,712 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:26:53,728 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-11-18 19:26:53,731 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:26:53,731 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/src/test/resources
+2018-11-18 19:27:01,740 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:27:01,740 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-11-18 19:27:01,742 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:27:01,743 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/src/test/resources
+2018-11-18 19:27:12,908 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:27:12,908 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-11-18 19:27:12,910 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:27:12,911 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/src/test/resources
+2018-11-18 19:27:34,324 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:27:34,335 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-11-18 19:27:34,346 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:27:34,347 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/src/test/resources
+2018-11-18 19:27:48,091 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:27:48,092 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-11-18 19:27:48,094 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-18 19:27:48,094 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview/src/test/resources
+2018-11-18 19:28:32,798 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/com.elementum.dept/pom.xml
+2018-11-18 19:28:32,887 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: interview:com.elementum.dept:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/com.elementum.dept/pom.xml.
+2018-11-18 19:28:33,565 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.elementum.dept/src/main/java
+2018-11-18 19:28:33,567 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.elementum.dept/src/test/java
+2018-11-18 19:28:33,636 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2018-11-18 19:28:33,951 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: interview:com.elementum.dept:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/com.elementum.dept/pom.xml.
+2018-11-18 19:28:34,134 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-18 19:28:34,134 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/com.elementum.dept/src/main/resources
+2018-11-18 19:28:34,136 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-18 19:28:34,137 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/com.elementum.dept/src/test/resources
+2018-11-18 19:28:34,716 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: interview:com.elementum.dept:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/com.elementum.dept/pom.xml.
+2018-11-18 19:28:35,155 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-18 19:28:35,155 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/com.elementum.dept/src/main/resources
+2018-11-18 19:28:35,158 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-18 19:28:35,159 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/com.elementum.dept/src/test/resources
+2018-11-18 19:30:29,942 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview1/pom.xml
+2018-11-18 19:30:30,009 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.elementum.dept1:interview1:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview1/pom.xml.
+2018-11-18 19:30:30,201 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /interview1/src/main/java
+2018-11-18 19:30:30,203 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /interview1/src/test/java
+2018-11-18 19:30:30,226 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2018-11-18 19:30:30,459 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.elementum.dept1:interview1:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview1/pom.xml.
+2018-11-18 19:30:30,657 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-18 19:30:30,657 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview1/src/main/resources
+2018-11-18 19:30:30,659 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-18 19:30:30,659 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview1/src/test/resources
+2018-11-18 19:30:31,314 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.elementum.dept1:interview1:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview1/pom.xml.
+2018-11-18 19:30:31,689 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-18 19:30:31,689 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview1/src/main/resources
+2018-11-18 19:30:31,692 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-11-18 19:30:31,692 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/java_practice/Data_Structure/interview1/src/test/resources
+2018-11-30 20:24:27,415 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
