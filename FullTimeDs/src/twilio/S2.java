@@ -19,7 +19,6 @@ public class S2 {
         filename = scan.nextLine();
         
         BufferedReader br = new BufferedReader(new FileReader(filename));
-        StringBuilder sb = new StringBuilder();
 
         String line = br.readLine();
         
